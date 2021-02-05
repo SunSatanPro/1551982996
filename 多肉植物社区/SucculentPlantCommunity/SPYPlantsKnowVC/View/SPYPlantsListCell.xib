@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SPYPlantsListCell">
+            <rect key="frame" x="0.0" y="0.0" width="349" height="348"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="349" height="348"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="x32-jF-8ri">
+                        <rect key="frame" x="0.0" y="10" width="349" height="278"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVV-bH-VbM">
+                        <rect key="frame" x="5" y="293" width="339" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="EU3-Gm-hJ8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xxx" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FRP-Hf-cuM">
+                        <rect key="frame" x="0.0" y="323" width="349" height="25"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="32V-0w-VdG">
+                        <rect key="frame" x="307" y="10" width="32" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="i17-j4-dw1"/>
+                            <constraint firstAttribute="height" constant="32" id="zc2-lu-iak"/>
+                        </constraints>
+                        <state key="normal" image="SPY_PlantsLike_nor"/>
+                        <state key="selected" image="SPY_PlantsLike_sel"/>
+                        <connections>
+                            <action selector="SPY_Like_PlantsClick:" destination="gTV-IL-0wX" eventType="touchUpInside" id="rFG-R7-Qx4"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <constraints>
+                <constraint firstItem="oVV-bH-VbM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="62E-b1-lGB"/>
+                <constraint firstItem="FRP-Hf-cuM" firstAttribute="top" secondItem="oVV-bH-VbM" secondAttribute="bottom" constant="5" id="Fyu-dU-EJ6"/>
+                <constraint firstAttribute="trailing" secondItem="oVV-bH-VbM" secondAttribute="trailing" constant="5" id="HQh-Tv-S4S"/>
+                <constraint firstItem="x32-jF-8ri" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="Kzt-Tv-Vdw"/>
+                <constraint firstItem="x32-jF-8ri" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="QCW-nw-BMm"/>
+                <constraint firstAttribute="bottom" secondItem="x32-jF-8ri" secondAttribute="bottom" constant="60" id="XFN-4U-dtu"/>
+                <constraint firstAttribute="bottom" secondItem="FRP-Hf-cuM" secondAttribute="bottom" id="ft0-Dh-7ip"/>
+                <constraint firstAttribute="trailing" secondItem="FRP-Hf-cuM" secondAttribute="trailing" id="hJX-IP-4yS"/>
+                <constraint firstItem="FRP-Hf-cuM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="i3o-Mq-cb7"/>
+                <constraint firstItem="oVV-bH-VbM" firstAttribute="top" secondItem="x32-jF-8ri" secondAttribute="bottom" constant="5" id="rsK-3V-C84"/>
+                <constraint firstAttribute="trailing" secondItem="x32-jF-8ri" secondAttribute="trailing" id="tMk-y9-ebI"/>
+                <constraint firstAttribute="trailing" secondItem="32V-0w-VdG" secondAttribute="trailing" constant="10" id="yUz-fc-utW"/>
+                <constraint firstItem="32V-0w-VdG" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="zds-zy-rrQ"/>
+            </constraints>
+            <size key="customSize" width="349" height="348"/>
+            <connections>
+                <outlet property="SPY_Plants_Body_label" destination="FRP-Hf-cuM" id="Wb6-Dx-ws1"/>
+                <outlet property="SPY_Plants_ImageView" destination="x32-jF-8ri" id="Qc5-lv-ms7"/>
+                <outlet property="SPY_Plants_LikeButton" destination="32V-0w-VdG" id="EN9-6f-aI7"/>
+                <outlet property="SPY_plants_Name_Label" destination="oVV-bH-VbM" id="hvf-rJ-MeC"/>
+            </connections>
+            <point key="canvasLocation" x="348.55072463768118" y="100.44642857142857"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="SPY_PlantsLike_nor" width="21.333333969116211" height="21.333333969116211"/>
+        <image name="SPY_PlantsLike_sel" width="32" height="32"/>
+    </resources>
+</document>

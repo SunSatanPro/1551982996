@@ -1,0 +1,23 @@
+platform :ios, '11.0'
+
+target 'SucculentPlantCommunity' do
+
+  use_frameworks!
+  pod 'SDWebImage'
+  pod 'FLAnimatedImage'
+  pod 'SDCycleScrollView'
+  pod 'SVProgressHUD'
+  pod 'MJRefresh',:inhibit_warnings => true
+  pod 'IQKeyboardManager'
+  pod 'UITableView+FDTemplateLayoutCell'
+  pod 'TZImagePickerController'
+  pod 'MJExtension', '~> 3.2.1'
+  pod 'AFNetworking', '~> 4.0.1'
+  pod 'Masonry'
+  pod 'SDCycleScrollView'
+  pod 'WMPageController'
+end
+
+
+
+

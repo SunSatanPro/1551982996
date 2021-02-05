@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="161" id="KGk-i7-Jjw" customClass="SPYPlants_KnowRelativeTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="161"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="161"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="V6A-tY-8lN">
+                        <rect key="frame" x="20" y="20" width="122" height="122"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="122" id="DBu-qs-vOq"/>
+                            <constraint firstAttribute="width" constant="122" id="LQY-BG-lkW"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xxx" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3BO-2G-Fsl">
+                        <rect key="frame" x="152" y="20" width="221" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="wiH-q6-Uo4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Brd-zN-YaO">
+                        <rect key="frame" x="152" y="50" width="221" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="6EP-IZ-cBd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PdL-xj-hKB">
+                        <rect key="frame" x="152" y="110" width="100" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="GxN-Lz-60a"/>
+                            <constraint firstAttribute="width" constant="100" id="WBA-0r-UaM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <state key="normal" title="查看详情" backgroundImage="SPY_PlantsBtn_Image">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Brd-zN-YaO" secondAttribute="trailing" constant="20" id="3cZ-As-xBT"/>
+                    <constraint firstItem="Brd-zN-YaO" firstAttribute="leading" secondItem="V6A-tY-8lN" secondAttribute="trailing" constant="10" id="B2M-KW-JiR"/>
+                    <constraint firstItem="V6A-tY-8lN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="DHo-YV-Qlg"/>
+                    <constraint firstAttribute="trailing" secondItem="3BO-2G-Fsl" secondAttribute="trailing" constant="20" id="DNF-zF-KCA"/>
+                    <constraint firstItem="3BO-2G-Fsl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="OSb-u5-JAN"/>
+                    <constraint firstItem="Brd-zN-YaO" firstAttribute="top" secondItem="3BO-2G-Fsl" secondAttribute="bottom" constant="10" id="Xow-3i-hYa"/>
+                    <constraint firstItem="PdL-xj-hKB" firstAttribute="leading" secondItem="V6A-tY-8lN" secondAttribute="trailing" constant="10" id="YNq-gL-35n"/>
+                    <constraint firstItem="3BO-2G-Fsl" firstAttribute="leading" secondItem="V6A-tY-8lN" secondAttribute="trailing" constant="10" id="c10-wn-8Uk"/>
+                    <constraint firstItem="PdL-xj-hKB" firstAttribute="top" secondItem="Brd-zN-YaO" secondAttribute="bottom" constant="10" id="fu0-6s-sfC"/>
+                    <constraint firstItem="V6A-tY-8lN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="lub-8h-0Yt"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="SPY_PlantsKnowTitleLabel" destination="3BO-2G-Fsl" id="H0A-az-aPQ"/>
+                <outlet property="SPY_PlantsKnow_Body_Label" destination="Brd-zN-YaO" id="oUO-KF-2Ff"/>
+                <outlet property="SPY_PlantsKnow_ImageView" destination="V6A-tY-8lN" id="3bA-WX-BrS"/>
+            </connections>
+            <point key="canvasLocation" x="196.37681159420291" y="78.013392857142847"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="SPY_PlantsBtn_Image" width="222" height="76"/>
+    </resources>
+</document>

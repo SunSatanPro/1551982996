@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="328" id="KGk-i7-Jjw" customClass="SPY_PlantsKnow_DtCell">
+            <rect key="frame" x="0.0" y="0.0" width="383" height="328"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="383" height="328"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xxx" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFC-8r-zPa">
+                        <rect key="frame" x="20" y="15" width="343" height="21"/>
+                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="18"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r9f-hC-ujy">
+                        <rect key="frame" x="20" y="46" width="34" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="r3T-yi-PTg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lXJ-Br-qQm">
+                        <rect key="frame" x="20" y="76" width="343" height="138"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="138" id="Gs5-X9-Fzs"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xxx" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cb3-WO-slw">
+                        <rect key="frame" x="20" y="224" width="343" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8N4-R3-OOj">
+                        <rect key="frame" x="20" y="252" width="343" height="40"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XKU-jE-V7O">
+                                <rect key="frame" x="0.0" y="0.0" width="161.5" height="40"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="18"/>
+                                <state key="normal" title="收藏" backgroundImage="SPY_PlantsBtn_Image">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="SPY_LikePlantsKnow:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="tNo-z9-v4U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBC-1h-Nj9">
+                                <rect key="frame" x="181.5" y="0.0" width="161.5" height="40"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="18"/>
+                                <state key="normal" title="举报" backgroundImage="SPY_PlantsBtn_Image">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="SPY_NoGoodPlants:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="k5X-YF-ofJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="WBC-1h-Nj9" secondAttribute="trailing" id="02s-cw-FPy"/>
+                            <constraint firstItem="XKU-jE-V7O" firstAttribute="top" secondItem="8N4-R3-OOj" secondAttribute="top" id="M7k-pt-Mm1"/>
+                            <constraint firstItem="WBC-1h-Nj9" firstAttribute="height" secondItem="XKU-jE-V7O" secondAttribute="height" id="PSR-ur-tMN"/>
+                            <constraint firstItem="XKU-jE-V7O" firstAttribute="leading" secondItem="8N4-R3-OOj" secondAttribute="leading" id="RfI-hr-QPL"/>
+                            <constraint firstItem="WBC-1h-Nj9" firstAttribute="top" secondItem="8N4-R3-OOj" secondAttribute="top" id="blz-lG-T0J"/>
+                            <constraint firstAttribute="height" constant="40" id="eL0-Lp-DpN"/>
+                            <constraint firstAttribute="bottom" secondItem="XKU-jE-V7O" secondAttribute="bottom" id="fiD-tk-kSz"/>
+                            <constraint firstItem="WBC-1h-Nj9" firstAttribute="leading" secondItem="XKU-jE-V7O" secondAttribute="trailing" constant="20" id="fsj-1u-fc4"/>
+                            <constraint firstItem="WBC-1h-Nj9" firstAttribute="width" secondItem="XKU-jE-V7O" secondAttribute="width" id="n0e-dI-WdB"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vED-lH-99l">
+                        <rect key="frame" x="0.0" y="302" width="383" height="26"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="lXJ-Br-qQm" firstAttribute="top" secondItem="r9f-hC-ujy" secondAttribute="bottom" constant="10" id="8NR-A5-4Up"/>
+                    <constraint firstAttribute="trailing" secondItem="JFC-8r-zPa" secondAttribute="trailing" constant="20" id="8f5-r8-bGX"/>
+                    <constraint firstItem="Cb3-WO-slw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="B06-b6-qCM"/>
+                    <constraint firstAttribute="bottom" secondItem="vED-lH-99l" secondAttribute="bottom" id="D4u-R9-Alu"/>
+                    <constraint firstItem="JFC-8r-zPa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="EXV-zW-bTd"/>
+                    <constraint firstItem="8N4-R3-OOj" firstAttribute="top" secondItem="Cb3-WO-slw" secondAttribute="bottom" constant="10" id="LFC-jz-dhW"/>
+                    <constraint firstItem="r9f-hC-ujy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="MaH-St-Zp8"/>
+                    <constraint firstItem="vED-lH-99l" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="NbP-ka-2QK"/>
+                    <constraint firstItem="JFC-8r-zPa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="Np1-cA-lqa"/>
+                    <constraint firstAttribute="trailing" secondItem="vED-lH-99l" secondAttribute="trailing" id="TRG-nS-Cua"/>
+                    <constraint firstAttribute="trailing" secondItem="lXJ-Br-qQm" secondAttribute="trailing" constant="20" id="aBe-Wf-zp9"/>
+                    <constraint firstItem="lXJ-Br-qQm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="cuU-ew-71y"/>
+                    <constraint firstAttribute="trailing" secondItem="8N4-R3-OOj" secondAttribute="trailing" constant="20" id="d6C-aw-YKx"/>
+                    <constraint firstItem="8N4-R3-OOj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="ixr-qJ-bmn"/>
+                    <constraint firstItem="Cb3-WO-slw" firstAttribute="top" secondItem="lXJ-Br-qQm" secondAttribute="bottom" constant="10" id="lly-ig-ygz"/>
+                    <constraint firstItem="vED-lH-99l" firstAttribute="top" secondItem="8N4-R3-OOj" secondAttribute="bottom" constant="10" id="nWf-mY-I5c"/>
+                    <constraint firstItem="r9f-hC-ujy" firstAttribute="top" secondItem="JFC-8r-zPa" secondAttribute="bottom" constant="10" id="xSC-Nw-p7i"/>
+                    <constraint firstAttribute="trailing" secondItem="Cb3-WO-slw" secondAttribute="trailing" constant="20" id="y2D-yn-zkR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="SPY_CollectionPlantsBtn" destination="XKU-jE-V7O" id="sU7-ug-lWC"/>
+                <outlet property="SPY_PlantsImageView" destination="lXJ-Br-qQm" id="c6y-s8-Hfr"/>
+                <outlet property="SPY_PlantsKnow_Body_Label" destination="Cb3-WO-slw" id="F7Z-Nm-Ckf"/>
+                <outlet property="SPY_RelasePlantsTime_Label" destination="r9f-hC-ujy" id="iGv-qK-EGD"/>
+                <outlet property="SPY_plantsKnow_titleLabel" destination="JFC-8r-zPa" id="QbV-V8-tNc"/>
+            </connections>
+            <point key="canvasLocation" x="368.84057971014494" y="118.52678571428571"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="SPY_PlantsBtn_Image" width="222" height="76"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

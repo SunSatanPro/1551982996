@@ -1,0 +1,1049 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E40967F672A6470D1682BAB /* Pods_SucculentPlantCommunity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1974635629FFAC4068C93640 /* Pods_SucculentPlantCommunity.framework */; };
+		844DB34F25CA725C00C4E9D2 /* SPYPlantsMass.json in Resources */ = {isa = PBXBuildFile; fileRef = 844DB34D25CA725B00C4E9D2 /* SPYPlantsMass.json */; };
+		844DB35025CA725C00C4E9D2 /* SPYPlantsZhiShi.json in Resources */ = {isa = PBXBuildFile; fileRef = 844DB34E25CA725B00C4E9D2 /* SPYPlantsZhiShi.json */; };
+		844DB35725CA729100C4E9D2 /* SPYPlantUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB35625CA729100C4E9D2 /* SPYPlantUserModel.m */; };
+		844DB36025CA72B400C4E9D2 /* SPYPlantsKnowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB35F25CA72B400C4E9D2 /* SPYPlantsKnowModel.m */; };
+		844DB36625CA72FB00C4E9D2 /* SPYPlantsCircleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB36525CA72FB00C4E9D2 /* SPYPlantsCircleModel.m */; };
+		844DB36C25CA73BC00C4E9D2 /* SPYPlantsNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB36B25CA73BC00C4E9D2 /* SPYPlantsNavViewController.m */; };
+		844DB37225CA73F100C4E9D2 /* SPYPlantsTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB37125CA73F100C4E9D2 /* SPYPlantsTabbarViewController.m */; };
+		844DB37B25CA763500C4E9D2 /* SPYPlantsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB37A25CA763500C4E9D2 /* SPYPlantsTool.m */; };
+		844DB38125CA767900C4E9D2 /* SPYPlantsJsonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB38025CA767900C4E9D2 /* SPYPlantsJsonTool.m */; };
+		844DB39A25CA8D0400C4E9D2 /* SPY_PlantsAgreeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB39325CA8D0300C4E9D2 /* SPY_PlantsAgreeVC.xib */; };
+		844DB39C25CA8D0400C4E9D2 /* SPY_PlantsLogVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB39525CA8D0300C4E9D2 /* SPY_PlantsLogVC.xib */; };
+		844DB39D25CA8D0400C4E9D2 /* SPY_AddPlantsAccountVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB39625CA8D0300C4E9D2 /* SPY_AddPlantsAccountVC.xib */; };
+		844DB3A725CA8D2200C4E9D2 /* SPY_PlantsLogVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB3A625CA8D2200C4E9D2 /* SPY_PlantsLogVC.m */; };
+		844DB3B025CA8D3100C4E9D2 /* SPY_AddPlantsAccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB3AF25CA8D3100C4E9D2 /* SPY_AddPlantsAccountVC.m */; };
+		844DB3B925CA8D4000C4E9D2 /* SPY_PlantsAgreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB3B825CA8D4000C4E9D2 /* SPY_PlantsAgreeVC.m */; };
+		844DB3D825CA8E6D00C4E9D2 /* SPY_PlantImage_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB3D625CA8E6D00C4E9D2 /* SPY_PlantImage_ViewController.m */; };
+		844DB3D925CA8E6D00C4E9D2 /* SPY_PlantImage_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB3D725CA8E6D00C4E9D2 /* SPY_PlantImage_ViewController.xib */; };
+		844DB3EC25CA8FE100C4E9D2 /* SPYPlantsKnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB3EA25CA8FE100C4E9D2 /* SPYPlantsKnowViewController.m */; };
+		844DB3ED25CA8FE100C4E9D2 /* SPYPlantsKnowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB3EB25CA8FE100C4E9D2 /* SPYPlantsKnowViewController.xib */; };
+		844DB3F725CA8FEC00C4E9D2 /* SPYPlantsCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB3F525CA8FEC00C4E9D2 /* SPYPlantsCircleViewController.m */; };
+		844DB3F825CA8FEC00C4E9D2 /* SPYPlantsCircleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB3F625CA8FEC00C4E9D2 /* SPYPlantsCircleViewController.xib */; };
+		844DB3FF25CA8FFB00C4E9D2 /* SPYPlantsLikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB3FD25CA8FFB00C4E9D2 /* SPYPlantsLikeViewController.m */; };
+		844DB40025CA8FFB00C4E9D2 /* SPYPlantsLikeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB3FE25CA8FFB00C4E9D2 /* SPYPlantsLikeViewController.xib */; };
+		844DB40E25CA955B00C4E9D2 /* AppDelegate+SPY.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB40D25CA955B00C4E9D2 /* AppDelegate+SPY.m */; };
+		844DB41825CA9BEF00C4E9D2 /* SPYPlantsScrollReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB41625CA9BEF00C4E9D2 /* SPYPlantsScrollReusableView.m */; };
+		844DB41925CA9BEF00C4E9D2 /* SPYPlantsScrollReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB41725CA9BEF00C4E9D2 /* SPYPlantsScrollReusableView.xib */; };
+		844DB42325CA9CA100C4E9D2 /* SPYTodayPlantsKnowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB42125CA9CA100C4E9D2 /* SPYTodayPlantsKnowCell.m */; };
+		844DB42425CA9CA100C4E9D2 /* SPYTodayPlantsKnowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB42225CA9CA100C4E9D2 /* SPYTodayPlantsKnowCell.xib */; };
+		844DB42B25CA9E8C00C4E9D2 /* SPYPlantsListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB42925CA9E8C00C4E9D2 /* SPYPlantsListCell.m */; };
+		844DB42C25CA9E8C00C4E9D2 /* SPYPlantsListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB42A25CA9E8C00C4E9D2 /* SPYPlantsListCell.xib */; };
+		844DB43325CAA61B00C4E9D2 /* SPYPlantsKnowFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB43125CAA61B00C4E9D2 /* SPYPlantsKnowFeatureViewController.m */; };
+		844DB43425CAA61B00C4E9D2 /* SPYPlantsKnowFeatureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB43225CAA61B00C4E9D2 /* SPYPlantsKnowFeatureViewController.xib */; };
+		844DB44625CAA75900C4E9D2 /* SPY_PlantsKnow_DtCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB44425CAA75900C4E9D2 /* SPY_PlantsKnow_DtCell.m */; };
+		844DB44725CAA75900C4E9D2 /* SPY_PlantsKnow_DtCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB44525CAA75900C4E9D2 /* SPY_PlantsKnow_DtCell.xib */; };
+		844DB44E25CAABC000C4E9D2 /* SPYPlants_KnowRelativeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB44C25CAABC000C4E9D2 /* SPYPlants_KnowRelativeTableViewCell.m */; };
+		844DB44F25CAABC000C4E9D2 /* SPYPlants_KnowRelativeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB44D25CAABC000C4E9D2 /* SPYPlants_KnowRelativeTableViewCell.xib */; };
+		844DB45525CAB1FB00C4E9D2 /* SPYPlantSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB45425CAB1FB00C4E9D2 /* SPYPlantSectionView.m */; };
+		844DB45A25CAB20500C4E9D2 /* SPYPlantSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB45925CAB20500C4E9D2 /* SPYPlantSectionView.xib */; };
+		844DB46425CAB37100C4E9D2 /* SPY_PlantCircleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB46225CAB37100C4E9D2 /* SPY_PlantCircleCell.m */; };
+		844DB46525CAB37100C4E9D2 /* SPY_PlantCircleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB46325CAB37100C4E9D2 /* SPY_PlantCircleCell.xib */; };
+		844DB46C25CAB9DF00C4E9D2 /* SPYPlantsCircleSayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB46A25CAB9DF00C4E9D2 /* SPYPlantsCircleSayCell.m */; };
+		844DB46D25CAB9DF00C4E9D2 /* SPYPlantsCircleSayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB46B25CAB9DF00C4E9D2 /* SPYPlantsCircleSayCell.xib */; };
+		844DB47425CAC1F500C4E9D2 /* SPY_PlantsCircleSayListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB47225CAC1F500C4E9D2 /* SPY_PlantsCircleSayListViewController.m */; };
+		844DB47525CAC1F500C4E9D2 /* SPY_PlantsCircleSayListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB47325CAC1F500C4E9D2 /* SPY_PlantsCircleSayListViewController.xib */; };
+		844DB47F25CAC90800C4E9D2 /* SPY_PlantsUserPostCircleDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB47D25CAC90800C4E9D2 /* SPY_PlantsUserPostCircleDataViewController.m */; };
+		844DB48025CAC90800C4E9D2 /* SPY_PlantsUserPostCircleDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB47E25CAC90800C4E9D2 /* SPY_PlantsUserPostCircleDataViewController.xib */; };
+		844DB48D25CACD1900C4E9D2 /* SPYPlantsCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB48B25CACD1900C4E9D2 /* SPYPlantsCenterViewController.m */; };
+		844DB48E25CACD1900C4E9D2 /* SPYPlantsCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB48C25CACD1900C4E9D2 /* SPYPlantsCenterViewController.xib */; };
+		844DB49525CACD6800C4E9D2 /* SPY_SatisfyPlantsKnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB49325CACD6800C4E9D2 /* SPY_SatisfyPlantsKnowViewController.m */; };
+		844DB49625CACD6800C4E9D2 /* SPY_SatisfyPlantsKnowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB49425CACD6800C4E9D2 /* SPY_SatisfyPlantsKnowViewController.xib */; };
+		844DB49D25CAD2A900C4E9D2 /* SPYInfoPlantsListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB49B25CAD2A900C4E9D2 /* SPYInfoPlantsListCell.m */; };
+		844DB49E25CAD2A900C4E9D2 /* SPYInfoPlantsListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB49C25CAD2A900C4E9D2 /* SPYInfoPlantsListCell.xib */; };
+		844DB4AB25CAD57500C4E9D2 /* SPYPlantsNoSatisfyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB4A925CAD57500C4E9D2 /* SPYPlantsNoSatisfyViewController.m */; };
+		844DB4AC25CAD57500C4E9D2 /* SPYPlantsNoSatisfyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB4AA25CAD57500C4E9D2 /* SPYPlantsNoSatisfyViewController.xib */; };
+		844DB4B325CAD67F00C4E9D2 /* SPYPlantsUserFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB4B125CAD67F00C4E9D2 /* SPYPlantsUserFeedViewController.m */; };
+		844DB4B425CAD67F00C4E9D2 /* SPYPlantsUserFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB4B225CAD67F00C4E9D2 /* SPYPlantsUserFeedViewController.xib */; };
+		84B8CC0725CA637800B7B718 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B8CC0625CA637800B7B718 /* AppDelegate.m */; };
+		84B8CC0F25CA637A00B7B718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B8CC0E25CA637A00B7B718 /* Assets.xcassets */; };
+		84B8CC1225CA637A00B7B718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B8CC1025CA637A00B7B718 /* LaunchScreen.storyboard */; };
+		84B8CC1525CA637A00B7B718 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B8CC1425CA637A00B7B718 /* main.m */; };
+		84B8CC1F25CA637A00B7B718 /* SucculentPlantCommunityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B8CC1E25CA637A00B7B718 /* SucculentPlantCommunityTests.m */; };
+		84B8CC2A25CA637A00B7B718 /* SucculentPlantCommunityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B8CC2925CA637A00B7B718 /* SucculentPlantCommunityUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84B8CC1B25CA637A00B7B718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B8CBFA25CA637800B7B718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B8CC0125CA637800B7B718;
+			remoteInfo = SucculentPlantCommunity;
+		};
+		84B8CC2625CA637A00B7B718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B8CBFA25CA637800B7B718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B8CC0125CA637800B7B718;
+			remoteInfo = SucculentPlantCommunity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1974635629FFAC4068C93640 /* Pods_SucculentPlantCommunity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SucculentPlantCommunity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32735AD079D255D4B1DC85E1 /* Pods-SucculentPlantCommunity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SucculentPlantCommunity.debug.xcconfig"; path = "Target Support Files/Pods-SucculentPlantCommunity/Pods-SucculentPlantCommunity.debug.xcconfig"; sourceTree = "<group>"; };
+		47A13D9221D92B2D4887D5D7 /* Pods-SucculentPlantCommunity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SucculentPlantCommunity.release.xcconfig"; path = "Target Support Files/Pods-SucculentPlantCommunity/Pods-SucculentPlantCommunity.release.xcconfig"; sourceTree = "<group>"; };
+		844DB34D25CA725B00C4E9D2 /* SPYPlantsMass.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SPYPlantsMass.json; sourceTree = "<group>"; };
+		844DB34E25CA725B00C4E9D2 /* SPYPlantsZhiShi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SPYPlantsZhiShi.json; sourceTree = "<group>"; };
+		844DB35525CA729100C4E9D2 /* SPYPlantUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYPlantUserModel.h; sourceTree = "<group>"; };
+		844DB35625CA729100C4E9D2 /* SPYPlantUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPYPlantUserModel.m; sourceTree = "<group>"; };
+		844DB35E25CA72B400C4E9D2 /* SPYPlantsKnowModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYPlantsKnowModel.h; sourceTree = "<group>"; };
+		844DB35F25CA72B400C4E9D2 /* SPYPlantsKnowModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPYPlantsKnowModel.m; sourceTree = "<group>"; };
+		844DB36425CA72FB00C4E9D2 /* SPYPlantsCircleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYPlantsCircleModel.h; sourceTree = "<group>"; };
+		844DB36525CA72FB00C4E9D2 /* SPYPlantsCircleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPYPlantsCircleModel.m; sourceTree = "<group>"; };
+		844DB36A25CA73BC00C4E9D2 /* SPYPlantsNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYPlantsNavViewController.h; sourceTree = "<group>"; };
+		844DB36B25CA73BC00C4E9D2 /* SPYPlantsNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPYPlantsNavViewController.m; sourceTree = "<group>"; };
+		844DB37025CA73F100C4E9D2 /* SPYPlantsTabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYPlantsTabbarViewController.h; sourceTree = "<group>"; };
+		844DB37125CA73F100C4E9D2 /* SPYPlantsTabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPYPlantsTabbarViewController.m; sourceTree = "<group>"; };
+		844DB37925CA763500C4E9D2 /* SPYPlantsTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYPlantsTool.h; sourceTree = "<group>"; };
+		844DB37A25CA763500C4E9D2 /* SPYPlantsTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPYPlantsTool.m; sourceTree = "<group>"; };
+		844DB37F25CA767900C4E9D2 /* SPYPlantsJsonTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYPlantsJsonTool.h; sourceTree = "<group>"; };
+		844DB38025CA767900C4E9D2 /* SPYPlantsJsonTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPYPlantsJsonTool.m; sourceTree = "<group>"; };
+		844DB38C25CA8CAE00C4E9D2 /* SPYPlantsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYPlantsHeader.h; sourceTree = "<group>"; };
+		844DB39325CA8D0300C4E9D2 /* SPY_PlantsAgreeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPY_PlantsAgreeVC.xib; sourceTree = "<group>"; };
+		844DB39525CA8D0300C4E9D2 /* SPY_PlantsLogVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPY_PlantsLogVC.xib; sourceTree = "<group>"; };
+		844DB39625CA8D0300C4E9D2 /* SPY_AddPlantsAccountVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPY_AddPlantsAccountVC.xib; sourceTree = "<group>"; };
+		844DB3A525CA8D2200C4E9D2 /* SPY_PlantsLogVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPY_PlantsLogVC.h; sourceTree = "<group>"; };
+		844DB3A625CA8D2200C4E9D2 /* SPY_PlantsLogVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPY_PlantsLogVC.m; sourceTree = "<group>"; };
+		844DB3AE25CA8D3100C4E9D2 /* SPY_AddPlantsAccountVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPY_AddPlantsAccountVC.h; sourceTree = "<group>"; };
+		844DB3AF25CA8D3100C4E9D2 /* SPY_AddPlantsAccountVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPY_AddPlantsAccountVC.m; sourceTree = "<group>"; };
+		844DB3B725CA8D4000C4E9D2 /* SPY_PlantsAgreeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPY_PlantsAgreeVC.h; sourceTree = "<group>"; };
+		844DB3B825CA8D4000C4E9D2 /* SPY_PlantsAgreeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPY_PlantsAgreeVC.m; sourceTree = "<group>"; };
+		844DB3D525CA8E6D00C4E9D2 /* SPY_PlantImage_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPY_PlantImage_ViewController.h; sourceTree = "<group>"; };
+		844DB3D625CA8E6D00C4E9D2 /* SPY_PlantImage_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPY_PlantImage_ViewController.m; sourceTree = "<group>"; };
+		844DB3D725CA8E6D00C4E9D2 /* SPY_PlantImage_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPY_PlantImage_ViewController.xib; sourceTree = "<group>"; };
+		844DB3E925CA8FE100C4E9D2 /* SPYPlantsKnowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYPlantsKnowViewController.h; sourceTree = "<group>"; };
+		844DB3EA25CA8FE100C4E9D2 /* SPYPlantsKnowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPYPlantsKnowViewController.m; sourceTree = "<group>"; };
+		844DB3EB25CA8FE100C4E9D2 /* SPYPlantsKnowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPYPlantsKnowViewController.xib; sourceTree = "<group>"; };
+		844DB3F425CA8FEC00C4E9D2 /* SPYPlantsCircleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYPlantsCircleViewController.h; sourceTree = "<group>"; };
+		844DB3F525CA8FEC00C4E9D2 /* SPYPlantsCircleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPYPlantsCircleViewController.m; sourceTree = "<group>"; };
+		844DB3F625CA8FEC00C4E9D2 /* SPYPlantsCircleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPYPlantsCircleViewController.xib; sourceTree = "<group>"; };
+		844DB3FC25CA8FFB00C4E9D2 /* SPYPlantsLikeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYPlantsLikeViewController.h; sourceTree = "<group>"; };
+		844DB3FD25CA8FFB00C4E9D2 /* SPYPlantsLikeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPYPlantsLikeViewController.m; sourceTree = "<group>"; };
+		844DB3FE25CA8FFB00C4E9D2 /* SPYPlantsLikeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPYPlantsLikeViewController.xib; sourceTree = "<group>"; };
+		844DB40C25CA955B00C4E9D2 /* AppDelegate+SPY.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+SPY.h"; sourceTree = "<group>"; };
+		844DB40D25CA955B00C4E9D2 /* AppDelegate+SPY.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+SPY.m"; sourceTree = "<group>"; };
+		844DB41525CA9BEF00C4E9D2 /* SPYPlantsScrollReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYPlantsScrollReusableView.h; sourceTree = "<group>"; };
+		844DB41625CA9BEF00C4E9D2 /* SPYPlantsScrollReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPYPlantsScrollReusableView.m; sourceTree = "<group>"; };
+		844DB41725CA9BEF00C4E9D2 /* SPYPlantsScrollReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPYPlantsScrollReusableView.xib; sourceTree = "<group>"; };
+		844DB42025CA9CA100C4E9D2 /* SPYTodayPlantsKnowCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYTodayPlantsKnowCell.h; sourceTree = "<group>"; };
+		844DB42125CA9CA100C4E9D2 /* SPYTodayPlantsKnowCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPYTodayPlantsKnowCell.m; sourceTree = "<group>"; };
+		844DB42225CA9CA100C4E9D2 /* SPYTodayPlantsKnowCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPYTodayPlantsKnowCell.xib; sourceTree = "<group>"; };
+		844DB42825CA9E8C00C4E9D2 /* SPYPlantsListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYPlantsListCell.h; sourceTree = "<group>"; };
+		844DB42925CA9E8C00C4E9D2 /* SPYPlantsListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPYPlantsListCell.m; sourceTree = "<group>"; };
+		844DB42A25CA9E8C00C4E9D2 /* SPYPlantsListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPYPlantsListCell.xib; sourceTree = "<group>"; };
+		844DB43025CAA61B00C4E9D2 /* SPYPlantsKnowFeatureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYPlantsKnowFeatureViewController.h; sourceTree = "<group>"; };
+		844DB43125CAA61B00C4E9D2 /* SPYPlantsKnowFeatureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPYPlantsKnowFeatureViewController.m; sourceTree = "<group>"; };
+		844DB43225CAA61B00C4E9D2 /* SPYPlantsKnowFeatureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPYPlantsKnowFeatureViewController.xib; sourceTree = "<group>"; };
+		844DB44325CAA75900C4E9D2 /* SPY_PlantsKnow_DtCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPY_PlantsKnow_DtCell.h; sourceTree = "<group>"; };
+		844DB44425CAA75900C4E9D2 /* SPY_PlantsKnow_DtCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPY_PlantsKnow_DtCell.m; sourceTree = "<group>"; };
+		844DB44525CAA75900C4E9D2 /* SPY_PlantsKnow_DtCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPY_PlantsKnow_DtCell.xib; sourceTree = "<group>"; };
+		844DB44B25CAABC000C4E9D2 /* SPYPlants_KnowRelativeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYPlants_KnowRelativeTableViewCell.h; sourceTree = "<group>"; };
+		844DB44C25CAABC000C4E9D2 /* SPYPlants_KnowRelativeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPYPlants_KnowRelativeTableViewCell.m; sourceTree = "<group>"; };
+		844DB44D25CAABC000C4E9D2 /* SPYPlants_KnowRelativeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPYPlants_KnowRelativeTableViewCell.xib; sourceTree = "<group>"; };
+		844DB45325CAB1FB00C4E9D2 /* SPYPlantSectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYPlantSectionView.h; sourceTree = "<group>"; };
+		844DB45425CAB1FB00C4E9D2 /* SPYPlantSectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPYPlantSectionView.m; sourceTree = "<group>"; };
+		844DB45925CAB20500C4E9D2 /* SPYPlantSectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPYPlantSectionView.xib; sourceTree = "<group>"; };
+		844DB46125CAB37100C4E9D2 /* SPY_PlantCircleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPY_PlantCircleCell.h; sourceTree = "<group>"; };
+		844DB46225CAB37100C4E9D2 /* SPY_PlantCircleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPY_PlantCircleCell.m; sourceTree = "<group>"; };
+		844DB46325CAB37100C4E9D2 /* SPY_PlantCircleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPY_PlantCircleCell.xib; sourceTree = "<group>"; };
+		844DB46925CAB9DF00C4E9D2 /* SPYPlantsCircleSayCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYPlantsCircleSayCell.h; sourceTree = "<group>"; };
+		844DB46A25CAB9DF00C4E9D2 /* SPYPlantsCircleSayCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPYPlantsCircleSayCell.m; sourceTree = "<group>"; };
+		844DB46B25CAB9DF00C4E9D2 /* SPYPlantsCircleSayCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPYPlantsCircleSayCell.xib; sourceTree = "<group>"; };
+		844DB47125CAC1F500C4E9D2 /* SPY_PlantsCircleSayListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPY_PlantsCircleSayListViewController.h; sourceTree = "<group>"; };
+		844DB47225CAC1F500C4E9D2 /* SPY_PlantsCircleSayListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPY_PlantsCircleSayListViewController.m; sourceTree = "<group>"; };
+		844DB47325CAC1F500C4E9D2 /* SPY_PlantsCircleSayListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPY_PlantsCircleSayListViewController.xib; sourceTree = "<group>"; };
+		844DB47C25CAC90800C4E9D2 /* SPY_PlantsUserPostCircleDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPY_PlantsUserPostCircleDataViewController.h; sourceTree = "<group>"; };
+		844DB47D25CAC90800C4E9D2 /* SPY_PlantsUserPostCircleDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPY_PlantsUserPostCircleDataViewController.m; sourceTree = "<group>"; };
+		844DB47E25CAC90800C4E9D2 /* SPY_PlantsUserPostCircleDataViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPY_PlantsUserPostCircleDataViewController.xib; sourceTree = "<group>"; };
+		844DB48A25CACD1900C4E9D2 /* SPYPlantsCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYPlantsCenterViewController.h; sourceTree = "<group>"; };
+		844DB48B25CACD1900C4E9D2 /* SPYPlantsCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPYPlantsCenterViewController.m; sourceTree = "<group>"; };
+		844DB48C25CACD1900C4E9D2 /* SPYPlantsCenterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPYPlantsCenterViewController.xib; sourceTree = "<group>"; };
+		844DB49225CACD6800C4E9D2 /* SPY_SatisfyPlantsKnowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPY_SatisfyPlantsKnowViewController.h; sourceTree = "<group>"; };
+		844DB49325CACD6800C4E9D2 /* SPY_SatisfyPlantsKnowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPY_SatisfyPlantsKnowViewController.m; sourceTree = "<group>"; };
+		844DB49425CACD6800C4E9D2 /* SPY_SatisfyPlantsKnowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPY_SatisfyPlantsKnowViewController.xib; sourceTree = "<group>"; };
+		844DB49A25CAD2A900C4E9D2 /* SPYInfoPlantsListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYInfoPlantsListCell.h; sourceTree = "<group>"; };
+		844DB49B25CAD2A900C4E9D2 /* SPYInfoPlantsListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPYInfoPlantsListCell.m; sourceTree = "<group>"; };
+		844DB49C25CAD2A900C4E9D2 /* SPYInfoPlantsListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPYInfoPlantsListCell.xib; sourceTree = "<group>"; };
+		844DB4A825CAD57500C4E9D2 /* SPYPlantsNoSatisfyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYPlantsNoSatisfyViewController.h; sourceTree = "<group>"; };
+		844DB4A925CAD57500C4E9D2 /* SPYPlantsNoSatisfyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPYPlantsNoSatisfyViewController.m; sourceTree = "<group>"; };
+		844DB4AA25CAD57500C4E9D2 /* SPYPlantsNoSatisfyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPYPlantsNoSatisfyViewController.xib; sourceTree = "<group>"; };
+		844DB4B025CAD67F00C4E9D2 /* SPYPlantsUserFeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYPlantsUserFeedViewController.h; sourceTree = "<group>"; };
+		844DB4B125CAD67F00C4E9D2 /* SPYPlantsUserFeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPYPlantsUserFeedViewController.m; sourceTree = "<group>"; };
+		844DB4B225CAD67F00C4E9D2 /* SPYPlantsUserFeedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPYPlantsUserFeedViewController.xib; sourceTree = "<group>"; };
+		84B8CC0225CA637800B7B718 /* SucculentPlantCommunity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SucculentPlantCommunity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B8CC0525CA637800B7B718 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84B8CC0625CA637800B7B718 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84B8CC0E25CA637A00B7B718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84B8CC1125CA637A00B7B718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84B8CC1325CA637A00B7B718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B8CC1425CA637A00B7B718 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84B8CC1A25CA637A00B7B718 /* SucculentPlantCommunityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SucculentPlantCommunityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B8CC1E25CA637A00B7B718 /* SucculentPlantCommunityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SucculentPlantCommunityTests.m; sourceTree = "<group>"; };
+		84B8CC2025CA637A00B7B718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B8CC2525CA637A00B7B718 /* SucculentPlantCommunityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SucculentPlantCommunityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B8CC2925CA637A00B7B718 /* SucculentPlantCommunityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SucculentPlantCommunityUITests.m; sourceTree = "<group>"; };
+		84B8CC2B25CA637A00B7B718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B8CBFF25CA637800B7B718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E40967F672A6470D1682BAB /* Pods_SucculentPlantCommunity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B8CC1725CA637A00B7B718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B8CC2225CA637A00B7B718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EC929A768B22BF18D4EB918 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1974635629FFAC4068C93640 /* Pods_SucculentPlantCommunity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		844DB34C25CA720100C4E9D2 /* SPYDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				84B8CC0525CA637800B7B718 /* AppDelegate.h */,
+				84B8CC0625CA637800B7B718 /* AppDelegate.m */,
+				844DB40C25CA955B00C4E9D2 /* AppDelegate+SPY.h */,
+				844DB40D25CA955B00C4E9D2 /* AppDelegate+SPY.m */,
+			);
+			path = SPYDelegate;
+			sourceTree = "<group>";
+		};
+		844DB35425CA727200C4E9D2 /* SPYLib */ = {
+			isa = PBXGroup;
+			children = (
+				844DB35525CA729100C4E9D2 /* SPYPlantUserModel.h */,
+				844DB35625CA729100C4E9D2 /* SPYPlantUserModel.m */,
+				844DB35E25CA72B400C4E9D2 /* SPYPlantsKnowModel.h */,
+				844DB35F25CA72B400C4E9D2 /* SPYPlantsKnowModel.m */,
+				844DB36425CA72FB00C4E9D2 /* SPYPlantsCircleModel.h */,
+				844DB36525CA72FB00C4E9D2 /* SPYPlantsCircleModel.m */,
+				844DB36A25CA73BC00C4E9D2 /* SPYPlantsNavViewController.h */,
+				844DB36B25CA73BC00C4E9D2 /* SPYPlantsNavViewController.m */,
+				844DB37025CA73F100C4E9D2 /* SPYPlantsTabbarViewController.h */,
+				844DB37125CA73F100C4E9D2 /* SPYPlantsTabbarViewController.m */,
+				844DB37925CA763500C4E9D2 /* SPYPlantsTool.h */,
+				844DB37A25CA763500C4E9D2 /* SPYPlantsTool.m */,
+				844DB37F25CA767900C4E9D2 /* SPYPlantsJsonTool.h */,
+				844DB38025CA767900C4E9D2 /* SPYPlantsJsonTool.m */,
+				844DB3A525CA8D2200C4E9D2 /* SPY_PlantsLogVC.h */,
+				844DB3A625CA8D2200C4E9D2 /* SPY_PlantsLogVC.m */,
+				844DB39525CA8D0300C4E9D2 /* SPY_PlantsLogVC.xib */,
+				844DB3AE25CA8D3100C4E9D2 /* SPY_AddPlantsAccountVC.h */,
+				844DB3AF25CA8D3100C4E9D2 /* SPY_AddPlantsAccountVC.m */,
+				844DB39625CA8D0300C4E9D2 /* SPY_AddPlantsAccountVC.xib */,
+				844DB3B725CA8D4000C4E9D2 /* SPY_PlantsAgreeVC.h */,
+				844DB3B825CA8D4000C4E9D2 /* SPY_PlantsAgreeVC.m */,
+				844DB39325CA8D0300C4E9D2 /* SPY_PlantsAgreeVC.xib */,
+				844DB3D525CA8E6D00C4E9D2 /* SPY_PlantImage_ViewController.h */,
+				844DB3D625CA8E6D00C4E9D2 /* SPY_PlantImage_ViewController.m */,
+				844DB3D725CA8E6D00C4E9D2 /* SPY_PlantImage_ViewController.xib */,
+			);
+			path = SPYLib;
+			sourceTree = "<group>";
+		};
+		844DB38525CA8C9B00C4E9D2 /* SPYData */ = {
+			isa = PBXGroup;
+			children = (
+				844DB34D25CA725B00C4E9D2 /* SPYPlantsMass.json */,
+				844DB34E25CA725B00C4E9D2 /* SPYPlantsZhiShi.json */,
+			);
+			path = SPYData;
+			sourceTree = "<group>";
+		};
+		844DB3DD25CA8EFA00C4E9D2 /* SPYPlantsKnowVC */ = {
+			isa = PBXGroup;
+			children = (
+				844DB3DF25CA8F0900C4E9D2 /* Controller */,
+				844DB3DE25CA8F0600C4E9D2 /* View */,
+			);
+			path = SPYPlantsKnowVC;
+			sourceTree = "<group>";
+		};
+		844DB3DE25CA8F0600C4E9D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				844DB41525CA9BEF00C4E9D2 /* SPYPlantsScrollReusableView.h */,
+				844DB41625CA9BEF00C4E9D2 /* SPYPlantsScrollReusableView.m */,
+				844DB41725CA9BEF00C4E9D2 /* SPYPlantsScrollReusableView.xib */,
+				844DB42025CA9CA100C4E9D2 /* SPYTodayPlantsKnowCell.h */,
+				844DB42125CA9CA100C4E9D2 /* SPYTodayPlantsKnowCell.m */,
+				844DB42225CA9CA100C4E9D2 /* SPYTodayPlantsKnowCell.xib */,
+				844DB42825CA9E8C00C4E9D2 /* SPYPlantsListCell.h */,
+				844DB42925CA9E8C00C4E9D2 /* SPYPlantsListCell.m */,
+				844DB42A25CA9E8C00C4E9D2 /* SPYPlantsListCell.xib */,
+				844DB45325CAB1FB00C4E9D2 /* SPYPlantSectionView.h */,
+				844DB45425CAB1FB00C4E9D2 /* SPYPlantSectionView.m */,
+				844DB45925CAB20500C4E9D2 /* SPYPlantSectionView.xib */,
+				844DB44325CAA75900C4E9D2 /* SPY_PlantsKnow_DtCell.h */,
+				844DB44425CAA75900C4E9D2 /* SPY_PlantsKnow_DtCell.m */,
+				844DB44525CAA75900C4E9D2 /* SPY_PlantsKnow_DtCell.xib */,
+				844DB44B25CAABC000C4E9D2 /* SPYPlants_KnowRelativeTableViewCell.h */,
+				844DB44C25CAABC000C4E9D2 /* SPYPlants_KnowRelativeTableViewCell.m */,
+				844DB44D25CAABC000C4E9D2 /* SPYPlants_KnowRelativeTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		844DB3DF25CA8F0900C4E9D2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				844DB3E925CA8FE100C4E9D2 /* SPYPlantsKnowViewController.h */,
+				844DB3EA25CA8FE100C4E9D2 /* SPYPlantsKnowViewController.m */,
+				844DB3EB25CA8FE100C4E9D2 /* SPYPlantsKnowViewController.xib */,
+				844DB43025CAA61B00C4E9D2 /* SPYPlantsKnowFeatureViewController.h */,
+				844DB43125CAA61B00C4E9D2 /* SPYPlantsKnowFeatureViewController.m */,
+				844DB43225CAA61B00C4E9D2 /* SPYPlantsKnowFeatureViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		844DB3E025CA8F8E00C4E9D2 /* SPYPlantsCircleVC */ = {
+			isa = PBXGroup;
+			children = (
+				844DB3E225CA8F9C00C4E9D2 /* Controller */,
+				844DB3E125CA8F9800C4E9D2 /* View */,
+			);
+			path = SPYPlantsCircleVC;
+			sourceTree = "<group>";
+		};
+		844DB3E125CA8F9800C4E9D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				844DB46125CAB37100C4E9D2 /* SPY_PlantCircleCell.h */,
+				844DB46225CAB37100C4E9D2 /* SPY_PlantCircleCell.m */,
+				844DB46325CAB37100C4E9D2 /* SPY_PlantCircleCell.xib */,
+				844DB46925CAB9DF00C4E9D2 /* SPYPlantsCircleSayCell.h */,
+				844DB46A25CAB9DF00C4E9D2 /* SPYPlantsCircleSayCell.m */,
+				844DB46B25CAB9DF00C4E9D2 /* SPYPlantsCircleSayCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		844DB3E225CA8F9C00C4E9D2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				844DB3F425CA8FEC00C4E9D2 /* SPYPlantsCircleViewController.h */,
+				844DB3F525CA8FEC00C4E9D2 /* SPYPlantsCircleViewController.m */,
+				844DB3F625CA8FEC00C4E9D2 /* SPYPlantsCircleViewController.xib */,
+				844DB47125CAC1F500C4E9D2 /* SPY_PlantsCircleSayListViewController.h */,
+				844DB47225CAC1F500C4E9D2 /* SPY_PlantsCircleSayListViewController.m */,
+				844DB47325CAC1F500C4E9D2 /* SPY_PlantsCircleSayListViewController.xib */,
+				844DB47C25CAC90800C4E9D2 /* SPY_PlantsUserPostCircleDataViewController.h */,
+				844DB47D25CAC90800C4E9D2 /* SPY_PlantsUserPostCircleDataViewController.m */,
+				844DB47E25CAC90800C4E9D2 /* SPY_PlantsUserPostCircleDataViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		844DB3E325CA8FA100C4E9D2 /* SPYPlantsLikeVC */ = {
+			isa = PBXGroup;
+			children = (
+				844DB3E525CA8FAF00C4E9D2 /* Controller */,
+				844DB3E425CA8FAB00C4E9D2 /* View */,
+			);
+			path = SPYPlantsLikeVC;
+			sourceTree = "<group>";
+		};
+		844DB3E425CA8FAB00C4E9D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		844DB3E525CA8FAF00C4E9D2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				844DB3FC25CA8FFB00C4E9D2 /* SPYPlantsLikeViewController.h */,
+				844DB3FD25CA8FFB00C4E9D2 /* SPYPlantsLikeViewController.m */,
+				844DB3FE25CA8FFB00C4E9D2 /* SPYPlantsLikeViewController.xib */,
+				844DB49225CACD6800C4E9D2 /* SPY_SatisfyPlantsKnowViewController.h */,
+				844DB49325CACD6800C4E9D2 /* SPY_SatisfyPlantsKnowViewController.m */,
+				844DB49425CACD6800C4E9D2 /* SPY_SatisfyPlantsKnowViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		844DB3E625CA8FB500C4E9D2 /* SPYPlantsCenterVC */ = {
+			isa = PBXGroup;
+			children = (
+				844DB3E825CA8FCB00C4E9D2 /* Controller */,
+				844DB3E725CA8FC600C4E9D2 /* View */,
+			);
+			path = SPYPlantsCenterVC;
+			sourceTree = "<group>";
+		};
+		844DB3E725CA8FC600C4E9D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				844DB49A25CAD2A900C4E9D2 /* SPYInfoPlantsListCell.h */,
+				844DB49B25CAD2A900C4E9D2 /* SPYInfoPlantsListCell.m */,
+				844DB49C25CAD2A900C4E9D2 /* SPYInfoPlantsListCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		844DB3E825CA8FCB00C4E9D2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				844DB48A25CACD1900C4E9D2 /* SPYPlantsCenterViewController.h */,
+				844DB48B25CACD1900C4E9D2 /* SPYPlantsCenterViewController.m */,
+				844DB48C25CACD1900C4E9D2 /* SPYPlantsCenterViewController.xib */,
+				844DB4A825CAD57500C4E9D2 /* SPYPlantsNoSatisfyViewController.h */,
+				844DB4A925CAD57500C4E9D2 /* SPYPlantsNoSatisfyViewController.m */,
+				844DB4AA25CAD57500C4E9D2 /* SPYPlantsNoSatisfyViewController.xib */,
+				844DB4B025CAD67F00C4E9D2 /* SPYPlantsUserFeedViewController.h */,
+				844DB4B125CAD67F00C4E9D2 /* SPYPlantsUserFeedViewController.m */,
+				844DB4B225CAD67F00C4E9D2 /* SPYPlantsUserFeedViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84B8CBF925CA637800B7B718 = {
+			isa = PBXGroup;
+			children = (
+				84B8CC0425CA637800B7B718 /* SucculentPlantCommunity */,
+				84B8CC1D25CA637A00B7B718 /* SucculentPlantCommunityTests */,
+				84B8CC2825CA637A00B7B718 /* SucculentPlantCommunityUITests */,
+				84B8CC0325CA637800B7B718 /* Products */,
+				B169C29CF16CE6F6B1A46E86 /* Pods */,
+				7EC929A768B22BF18D4EB918 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84B8CC0325CA637800B7B718 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B8CC0225CA637800B7B718 /* SucculentPlantCommunity.app */,
+				84B8CC1A25CA637A00B7B718 /* SucculentPlantCommunityTests.xctest */,
+				84B8CC2525CA637A00B7B718 /* SucculentPlantCommunityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B8CC0425CA637800B7B718 /* SucculentPlantCommunity */ = {
+			isa = PBXGroup;
+			children = (
+				844DB3E625CA8FB500C4E9D2 /* SPYPlantsCenterVC */,
+				844DB3E325CA8FA100C4E9D2 /* SPYPlantsLikeVC */,
+				844DB3E025CA8F8E00C4E9D2 /* SPYPlantsCircleVC */,
+				844DB3DD25CA8EFA00C4E9D2 /* SPYPlantsKnowVC */,
+				844DB35425CA727200C4E9D2 /* SPYLib */,
+				844DB34C25CA720100C4E9D2 /* SPYDelegate */,
+				84B8CC0E25CA637A00B7B718 /* Assets.xcassets */,
+				84B8CC1025CA637A00B7B718 /* LaunchScreen.storyboard */,
+				84B8CC1325CA637A00B7B718 /* Info.plist */,
+				84B8CC1425CA637A00B7B718 /* main.m */,
+				844DB38525CA8C9B00C4E9D2 /* SPYData */,
+				844DB38C25CA8CAE00C4E9D2 /* SPYPlantsHeader.h */,
+			);
+			path = SucculentPlantCommunity;
+			sourceTree = "<group>";
+		};
+		84B8CC1D25CA637A00B7B718 /* SucculentPlantCommunityTests */ = {
+			isa = PBXGroup;
+			children = (
+				84B8CC1E25CA637A00B7B718 /* SucculentPlantCommunityTests.m */,
+				84B8CC2025CA637A00B7B718 /* Info.plist */,
+			);
+			path = SucculentPlantCommunityTests;
+			sourceTree = "<group>";
+		};
+		84B8CC2825CA637A00B7B718 /* SucculentPlantCommunityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84B8CC2925CA637A00B7B718 /* SucculentPlantCommunityUITests.m */,
+				84B8CC2B25CA637A00B7B718 /* Info.plist */,
+			);
+			path = SucculentPlantCommunityUITests;
+			sourceTree = "<group>";
+		};
+		B169C29CF16CE6F6B1A46E86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32735AD079D255D4B1DC85E1 /* Pods-SucculentPlantCommunity.debug.xcconfig */,
+				47A13D9221D92B2D4887D5D7 /* Pods-SucculentPlantCommunity.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B8CC0125CA637800B7B718 /* SucculentPlantCommunity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B8CC2E25CA637A00B7B718 /* Build configuration list for PBXNativeTarget "SucculentPlantCommunity" */;
+			buildPhases = (
+				E95640CB52C545C47F213B8A /* [CP] Check Pods Manifest.lock */,
+				84B8CBFE25CA637800B7B718 /* Sources */,
+				84B8CBFF25CA637800B7B718 /* Frameworks */,
+				84B8CC0025CA637800B7B718 /* Resources */,
+				90D944A9C0064EC1554E4EB4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SucculentPlantCommunity;
+			productName = SucculentPlantCommunity;
+			productReference = 84B8CC0225CA637800B7B718 /* SucculentPlantCommunity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84B8CC1925CA637A00B7B718 /* SucculentPlantCommunityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B8CC3125CA637A00B7B718 /* Build configuration list for PBXNativeTarget "SucculentPlantCommunityTests" */;
+			buildPhases = (
+				84B8CC1625CA637A00B7B718 /* Sources */,
+				84B8CC1725CA637A00B7B718 /* Frameworks */,
+				84B8CC1825CA637A00B7B718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B8CC1C25CA637A00B7B718 /* PBXTargetDependency */,
+			);
+			name = SucculentPlantCommunityTests;
+			productName = SucculentPlantCommunityTests;
+			productReference = 84B8CC1A25CA637A00B7B718 /* SucculentPlantCommunityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84B8CC2425CA637A00B7B718 /* SucculentPlantCommunityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B8CC3425CA637A00B7B718 /* Build configuration list for PBXNativeTarget "SucculentPlantCommunityUITests" */;
+			buildPhases = (
+				84B8CC2125CA637A00B7B718 /* Sources */,
+				84B8CC2225CA637A00B7B718 /* Frameworks */,
+				84B8CC2325CA637A00B7B718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B8CC2725CA637A00B7B718 /* PBXTargetDependency */,
+			);
+			name = SucculentPlantCommunityUITests;
+			productName = SucculentPlantCommunityUITests;
+			productReference = 84B8CC2525CA637A00B7B718 /* SucculentPlantCommunityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B8CBFA25CA637800B7B718 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SPY;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = SucculentPlantCommunity;
+				TargetAttributes = {
+					84B8CC0125CA637800B7B718 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					84B8CC1925CA637A00B7B718 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 84B8CC0125CA637800B7B718;
+					};
+					84B8CC2425CA637A00B7B718 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 84B8CC0125CA637800B7B718;
+					};
+				};
+			};
+			buildConfigurationList = 84B8CBFD25CA637800B7B718 /* Build configuration list for PBXProject "SucculentPlantCommunity" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84B8CBF925CA637800B7B718;
+			productRefGroup = 84B8CC0325CA637800B7B718 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B8CC0125CA637800B7B718 /* SucculentPlantCommunity */,
+				84B8CC1925CA637A00B7B718 /* SucculentPlantCommunityTests */,
+				84B8CC2425CA637A00B7B718 /* SucculentPlantCommunityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B8CC0025CA637800B7B718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844DB3ED25CA8FE100C4E9D2 /* SPYPlantsKnowViewController.xib in Resources */,
+				844DB4B425CAD67F00C4E9D2 /* SPYPlantsUserFeedViewController.xib in Resources */,
+				844DB49E25CAD2A900C4E9D2 /* SPYInfoPlantsListCell.xib in Resources */,
+				844DB42C25CA9E8C00C4E9D2 /* SPYPlantsListCell.xib in Resources */,
+				844DB34F25CA725C00C4E9D2 /* SPYPlantsMass.json in Resources */,
+				844DB41925CA9BEF00C4E9D2 /* SPYPlantsScrollReusableView.xib in Resources */,
+				844DB42425CA9CA100C4E9D2 /* SPYTodayPlantsKnowCell.xib in Resources */,
+				844DB44725CAA75900C4E9D2 /* SPY_PlantsKnow_DtCell.xib in Resources */,
+				844DB48025CAC90800C4E9D2 /* SPY_PlantsUserPostCircleDataViewController.xib in Resources */,
+				844DB47525CAC1F500C4E9D2 /* SPY_PlantsCircleSayListViewController.xib in Resources */,
+				844DB40025CA8FFB00C4E9D2 /* SPYPlantsLikeViewController.xib in Resources */,
+				844DB39A25CA8D0400C4E9D2 /* SPY_PlantsAgreeVC.xib in Resources */,
+				844DB46D25CAB9DF00C4E9D2 /* SPYPlantsCircleSayCell.xib in Resources */,
+				84B8CC1225CA637A00B7B718 /* LaunchScreen.storyboard in Resources */,
+				844DB45A25CAB20500C4E9D2 /* SPYPlantSectionView.xib in Resources */,
+				844DB39C25CA8D0400C4E9D2 /* SPY_PlantsLogVC.xib in Resources */,
+				844DB35025CA725C00C4E9D2 /* SPYPlantsZhiShi.json in Resources */,
+				844DB48E25CACD1900C4E9D2 /* SPYPlantsCenterViewController.xib in Resources */,
+				844DB44F25CAABC000C4E9D2 /* SPYPlants_KnowRelativeTableViewCell.xib in Resources */,
+				844DB39D25CA8D0400C4E9D2 /* SPY_AddPlantsAccountVC.xib in Resources */,
+				844DB3F825CA8FEC00C4E9D2 /* SPYPlantsCircleViewController.xib in Resources */,
+				84B8CC0F25CA637A00B7B718 /* Assets.xcassets in Resources */,
+				844DB46525CAB37100C4E9D2 /* SPY_PlantCircleCell.xib in Resources */,
+				844DB3D925CA8E6D00C4E9D2 /* SPY_PlantImage_ViewController.xib in Resources */,
+				844DB49625CACD6800C4E9D2 /* SPY_SatisfyPlantsKnowViewController.xib in Resources */,
+				844DB4AC25CAD57500C4E9D2 /* SPYPlantsNoSatisfyViewController.xib in Resources */,
+				844DB43425CAA61B00C4E9D2 /* SPYPlantsKnowFeatureViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B8CC1825CA637A00B7B718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B8CC2325CA637A00B7B718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90D944A9C0064EC1554E4EB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SucculentPlantCommunity/Pods-SucculentPlantCommunity-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SucculentPlantCommunity/Pods-SucculentPlantCommunity-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SucculentPlantCommunity/Pods-SucculentPlantCommunity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E95640CB52C545C47F213B8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SucculentPlantCommunity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B8CBFE25CA637800B7B718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844DB49525CACD6800C4E9D2 /* SPY_SatisfyPlantsKnowViewController.m in Sources */,
+				844DB38125CA767900C4E9D2 /* SPYPlantsJsonTool.m in Sources */,
+				844DB3D825CA8E6D00C4E9D2 /* SPY_PlantImage_ViewController.m in Sources */,
+				844DB3EC25CA8FE100C4E9D2 /* SPYPlantsKnowViewController.m in Sources */,
+				844DB35725CA729100C4E9D2 /* SPYPlantUserModel.m in Sources */,
+				844DB42325CA9CA100C4E9D2 /* SPYTodayPlantsKnowCell.m in Sources */,
+				844DB3F725CA8FEC00C4E9D2 /* SPYPlantsCircleViewController.m in Sources */,
+				844DB3B025CA8D3100C4E9D2 /* SPY_AddPlantsAccountVC.m in Sources */,
+				844DB37225CA73F100C4E9D2 /* SPYPlantsTabbarViewController.m in Sources */,
+				844DB46425CAB37100C4E9D2 /* SPY_PlantCircleCell.m in Sources */,
+				844DB36C25CA73BC00C4E9D2 /* SPYPlantsNavViewController.m in Sources */,
+				844DB42B25CA9E8C00C4E9D2 /* SPYPlantsListCell.m in Sources */,
+				844DB44E25CAABC000C4E9D2 /* SPYPlants_KnowRelativeTableViewCell.m in Sources */,
+				844DB47425CAC1F500C4E9D2 /* SPY_PlantsCircleSayListViewController.m in Sources */,
+				844DB41825CA9BEF00C4E9D2 /* SPYPlantsScrollReusableView.m in Sources */,
+				844DB4B325CAD67F00C4E9D2 /* SPYPlantsUserFeedViewController.m in Sources */,
+				844DB40E25CA955B00C4E9D2 /* AppDelegate+SPY.m in Sources */,
+				844DB43325CAA61B00C4E9D2 /* SPYPlantsKnowFeatureViewController.m in Sources */,
+				844DB48D25CACD1900C4E9D2 /* SPYPlantsCenterViewController.m in Sources */,
+				844DB4AB25CAD57500C4E9D2 /* SPYPlantsNoSatisfyViewController.m in Sources */,
+				844DB36625CA72FB00C4E9D2 /* SPYPlantsCircleModel.m in Sources */,
+				844DB36025CA72B400C4E9D2 /* SPYPlantsKnowModel.m in Sources */,
+				844DB49D25CAD2A900C4E9D2 /* SPYInfoPlantsListCell.m in Sources */,
+				844DB3FF25CA8FFB00C4E9D2 /* SPYPlantsLikeViewController.m in Sources */,
+				844DB46C25CAB9DF00C4E9D2 /* SPYPlantsCircleSayCell.m in Sources */,
+				84B8CC1525CA637A00B7B718 /* main.m in Sources */,
+				844DB47F25CAC90800C4E9D2 /* SPY_PlantsUserPostCircleDataViewController.m in Sources */,
+				844DB3A725CA8D2200C4E9D2 /* SPY_PlantsLogVC.m in Sources */,
+				844DB3B925CA8D4000C4E9D2 /* SPY_PlantsAgreeVC.m in Sources */,
+				844DB44625CAA75900C4E9D2 /* SPY_PlantsKnow_DtCell.m in Sources */,
+				844DB37B25CA763500C4E9D2 /* SPYPlantsTool.m in Sources */,
+				84B8CC0725CA637800B7B718 /* AppDelegate.m in Sources */,
+				844DB45525CAB1FB00C4E9D2 /* SPYPlantSectionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B8CC1625CA637A00B7B718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B8CC1F25CA637A00B7B718 /* SucculentPlantCommunityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B8CC2125CA637A00B7B718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B8CC2A25CA637A00B7B718 /* SucculentPlantCommunityUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84B8CC1C25CA637A00B7B718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B8CC0125CA637800B7B718 /* SucculentPlantCommunity */;
+			targetProxy = 84B8CC1B25CA637A00B7B718 /* PBXContainerItemProxy */;
+		};
+		84B8CC2725CA637A00B7B718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B8CC0125CA637800B7B718 /* SucculentPlantCommunity */;
+			targetProxy = 84B8CC2625CA637A00B7B718 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84B8CC1025CA637A00B7B718 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B8CC1125CA637A00B7B718 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84B8CC2C25CA637A00B7B718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84B8CC2D25CA637A00B7B718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84B8CC2F25CA637A00B7B718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32735AD079D255D4B1DC85E1 /* Pods-SucculentPlantCommunity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PDSTSFXRA5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SucculentPlantCommunity/SPYPlantsHeader.h";
+				INFOPLIST_FILE = SucculentPlantCommunity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SucculentPlantCommunity.SucculentPlantCommunity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.SucculentPlantCommunity.SucculentPlantCommun;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		84B8CC3025CA637A00B7B718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47A13D9221D92B2D4887D5D7 /* Pods-SucculentPlantCommunity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PDSTSFXRA5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SucculentPlantCommunity/SPYPlantsHeader.h";
+				INFOPLIST_FILE = SucculentPlantCommunity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SucculentPlantCommunity.SucculentPlantCommunity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.SucculentPlantCommunity.SucculentPlantCommun;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		84B8CC3225CA637A00B7B718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SucculentPlantCommunityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SucculentPlantCommunity.SucculentPlantCommunityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SucculentPlantCommunity.app/SucculentPlantCommunity";
+			};
+			name = Debug;
+		};
+		84B8CC3325CA637A00B7B718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SucculentPlantCommunityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SucculentPlantCommunity.SucculentPlantCommunityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SucculentPlantCommunity.app/SucculentPlantCommunity";
+			};
+			name = Release;
+		};
+		84B8CC3525CA637A00B7B718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SucculentPlantCommunityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SucculentPlantCommunity.SucculentPlantCommunityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SucculentPlantCommunity;
+			};
+			name = Debug;
+		};
+		84B8CC3625CA637A00B7B718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SucculentPlantCommunityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SucculentPlantCommunity.SucculentPlantCommunityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SucculentPlantCommunity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B8CBFD25CA637800B7B718 /* Build configuration list for PBXProject "SucculentPlantCommunity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B8CC2C25CA637A00B7B718 /* Debug */,
+				84B8CC2D25CA637A00B7B718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B8CC2E25CA637A00B7B718 /* Build configuration list for PBXNativeTarget "SucculentPlantCommunity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B8CC2F25CA637A00B7B718 /* Debug */,
+				84B8CC3025CA637A00B7B718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B8CC3125CA637A00B7B718 /* Build configuration list for PBXNativeTarget "SucculentPlantCommunityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B8CC3225CA637A00B7B718 /* Debug */,
+				84B8CC3325CA637A00B7B718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B8CC3425CA637A00B7B718 /* Build configuration list for PBXNativeTarget "SucculentPlantCommunityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B8CC3525CA637A00B7B718 /* Debug */,
+				84B8CC3625CA637A00B7B718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B8CBFA25CA637800B7B718 /* Project object */;
+}

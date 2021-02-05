@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SPYTodayPlantsKnowCell">
+            <rect key="frame" x="0.0" y="0.0" width="373" height="246"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="373" height="246"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SUL-Mp-IMc">
+                        <rect key="frame" x="10" y="10" width="353" height="226"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SPY_HotKnowImage" translatesAutoresizingMaskIntoConstraints="NO" id="qQL-dK-jOo">
+                                <rect key="frame" x="0.0" y="0.0" width="353" height="226"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日推荐" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nDe-Jn-WBk">
+                                <rect key="frame" x="20" y="15" width="313" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="Axq-k6-IEg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="标题" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGF-5Y-ViZ">
+                                <rect key="frame" x="25" y="50" width="303" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="77o-l7-CB8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xxx" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tFE-dx-M4L">
+                                <rect key="frame" x="25" y="85" width="303" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="Cxg-Qc-HZj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Nkw-eN-u5a">
+                                <rect key="frame" x="25" y="120" width="303" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="0Kg-XL-Ywt"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nDe-Jn-WBk" firstAttribute="leading" secondItem="SUL-Mp-IMc" secondAttribute="leading" constant="20" id="0a2-1F-JDH"/>
+                            <constraint firstItem="tFE-dx-M4L" firstAttribute="leading" secondItem="SUL-Mp-IMc" secondAttribute="leading" constant="25" id="2pI-qg-el3"/>
+                            <constraint firstItem="tFE-dx-M4L" firstAttribute="top" secondItem="cGF-5Y-ViZ" secondAttribute="bottom" constant="10" id="6Qz-Rc-weE"/>
+                            <constraint firstItem="Nkw-eN-u5a" firstAttribute="top" secondItem="tFE-dx-M4L" secondAttribute="bottom" constant="10" id="ETI-9p-fYE"/>
+                            <constraint firstItem="cGF-5Y-ViZ" firstAttribute="leading" secondItem="SUL-Mp-IMc" secondAttribute="leading" constant="25" id="GLj-JP-C5O"/>
+                            <constraint firstItem="cGF-5Y-ViZ" firstAttribute="top" secondItem="nDe-Jn-WBk" secondAttribute="bottom" constant="10" id="QHk-rq-aC4"/>
+                            <constraint firstAttribute="trailing" secondItem="tFE-dx-M4L" secondAttribute="trailing" constant="25" id="R0f-gf-iAM"/>
+                            <constraint firstAttribute="trailing" secondItem="Nkw-eN-u5a" secondAttribute="trailing" constant="25" id="RdV-JV-re9"/>
+                            <constraint firstAttribute="trailing" secondItem="nDe-Jn-WBk" secondAttribute="trailing" constant="20" id="Swx-ey-AHM"/>
+                            <constraint firstAttribute="bottom" secondItem="qQL-dK-jOo" secondAttribute="bottom" id="ZB8-WL-4OA"/>
+                            <constraint firstItem="nDe-Jn-WBk" firstAttribute="top" secondItem="SUL-Mp-IMc" secondAttribute="top" constant="15" id="doL-l5-JJv"/>
+                            <constraint firstAttribute="trailing" secondItem="cGF-5Y-ViZ" secondAttribute="trailing" constant="25" id="dut-Ud-qcF"/>
+                            <constraint firstItem="Nkw-eN-u5a" firstAttribute="leading" secondItem="SUL-Mp-IMc" secondAttribute="leading" constant="25" id="hxR-09-Srm"/>
+                            <constraint firstItem="qQL-dK-jOo" firstAttribute="leading" secondItem="SUL-Mp-IMc" secondAttribute="leading" id="ocC-zA-Oyx"/>
+                            <constraint firstAttribute="trailing" secondItem="qQL-dK-jOo" secondAttribute="trailing" id="pjJ-Ju-QyG"/>
+                            <constraint firstItem="nDe-Jn-WBk" firstAttribute="centerX" secondItem="SUL-Mp-IMc" secondAttribute="centerX" id="vxx-7m-QqT"/>
+                            <constraint firstItem="qQL-dK-jOo" firstAttribute="top" secondItem="SUL-Mp-IMc" secondAttribute="top" id="yuU-SZ-QHQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="SUL-Mp-IMc" secondAttribute="trailing" constant="10" id="8Ck-e9-WjG"/>
+                <constraint firstAttribute="bottom" secondItem="SUL-Mp-IMc" secondAttribute="bottom" constant="10" id="Mh0-v9-Q6W"/>
+                <constraint firstItem="SUL-Mp-IMc" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="QjA-pd-GPr"/>
+                <constraint firstItem="SUL-Mp-IMc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="qrw-Yq-INC"/>
+            </constraints>
+            <size key="customSize" width="373" height="246"/>
+            <connections>
+                <outlet property="SPY_PlantKnow_Title_label" destination="cGF-5Y-ViZ" id="Mrr-4W-Zhl"/>
+                <outlet property="SPY_PlantsKnow_ImageView" destination="Nkw-eN-u5a" id="Qqo-qh-LZK"/>
+                <outlet property="SPY_TodayPlantsKnow_Body_Label" destination="tFE-dx-M4L" id="qoi-eN-uYu"/>
+            </connections>
+            <point key="canvasLocation" x="100.72463768115942" y="30.803571428571427"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="SPY_HotKnowImage" width="600" height="250"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

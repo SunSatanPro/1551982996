@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="282" id="KGk-i7-Jjw" customClass="SPY_PlantCircleCell">
+            <rect key="frame" x="0.0" y="0.0" width="357" height="282"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="357" height="282"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EhZ-ck-umK">
+                        <rect key="frame" x="20" y="15" width="32" height="32"/>
+                        <color key="backgroundColor" red="0.4860380292" green="0.56258881090000001" blue="0.45096474889999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="cHG-yz-9lf"/>
+                            <constraint firstAttribute="width" constant="32" id="xkU-0b-0ip"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12324" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vuZ-jH-vcT">
+                        <rect key="frame" x="62" y="15" width="43" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="yBw-5F-VZh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yWA-u7-14o">
+                        <rect key="frame" x="305" y="15" width="32" height="32"/>
+                        <color key="backgroundColor" red="0.82737165690000003" green="0.81168758870000002" blue="0.81568711999999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="hnu-sW-gTT"/>
+                            <constraint firstAttribute="height" constant="32" id="vQX-gd-e0I"/>
+                        </constraints>
+                        <state key="normal" image="SPY_PlantsLike_nor"/>
+                        <state key="selected" image="SPY_PlantsLike_sel"/>
+                        <connections>
+                            <action selector="SPY_GuanZhuPlants:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="qAv-AN-8Ml"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0eb-8U-3CV">
+                        <rect key="frame" x="20" y="57" width="317" height="21.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="w2M-fI-X48">
+                        <rect key="frame" x="20" y="88.5" width="317" height="88"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="88" id="cqH-GN-aeU"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xx" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i2n-l7-sEv">
+                        <rect key="frame" x="20" y="186.5" width="317" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q0o-b6-h9m">
+                        <rect key="frame" x="20" y="214.5" width="317" height="40"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRg-pG-TmF">
+                                <rect key="frame" x="0.0" y="0.0" width="99" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="举报" backgroundImage="SPY_PlantsBtn_Image">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="SPY_PlantsCircle_Balck:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="BeF-yl-pfw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhU-HP-VFL">
+                                <rect key="frame" x="109" y="0.0" width="99" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="拉黑" backgroundImage="SPY_PlantsBtn_Image">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="SPY_Plants_PushBlack:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="MGN-rz-Nha"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gwL-AF-4IR">
+                                <rect key="frame" x="218" y="0.0" width="99" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="点赞" backgroundImage="SPY_PlantsBtn_Image">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="SPY_PlantsCirclePraise:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="zV5-Te-Dcm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="BtO-l5-Nbo"/>
+                            <constraint firstItem="uhU-HP-VFL" firstAttribute="leading" secondItem="sRg-pG-TmF" secondAttribute="trailing" constant="10" id="Bxy-Oj-fbW"/>
+                            <constraint firstItem="gwL-AF-4IR" firstAttribute="width" secondItem="sRg-pG-TmF" secondAttribute="width" id="CPZ-oU-57q"/>
+                            <constraint firstAttribute="bottom" secondItem="sRg-pG-TmF" secondAttribute="bottom" id="Ldg-to-u9m"/>
+                            <constraint firstItem="sRg-pG-TmF" firstAttribute="leading" secondItem="q0o-b6-h9m" secondAttribute="leading" id="Nvf-Wa-qqU"/>
+                            <constraint firstItem="uhU-HP-VFL" firstAttribute="width" secondItem="sRg-pG-TmF" secondAttribute="width" id="Pw9-UP-wCe"/>
+                            <constraint firstItem="gwL-AF-4IR" firstAttribute="height" secondItem="sRg-pG-TmF" secondAttribute="height" id="Qof-mz-Kqi"/>
+                            <constraint firstAttribute="trailing" secondItem="gwL-AF-4IR" secondAttribute="trailing" id="TxR-Ti-hZI"/>
+                            <constraint firstItem="gwL-AF-4IR" firstAttribute="leading" secondItem="uhU-HP-VFL" secondAttribute="trailing" constant="10" id="TxT-od-RRp"/>
+                            <constraint firstItem="uhU-HP-VFL" firstAttribute="top" secondItem="q0o-b6-h9m" secondAttribute="top" id="Wdj-kx-VPl"/>
+                            <constraint firstItem="gwL-AF-4IR" firstAttribute="top" secondItem="q0o-b6-h9m" secondAttribute="top" id="ZTz-4G-rIj"/>
+                            <constraint firstItem="sRg-pG-TmF" firstAttribute="top" secondItem="q0o-b6-h9m" secondAttribute="top" id="u35-th-fJ1"/>
+                            <constraint firstItem="uhU-HP-VFL" firstAttribute="height" secondItem="sRg-pG-TmF" secondAttribute="height" id="viR-XQ-hys"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tkl-9l-dfx">
+                        <rect key="frame" x="0.0" y="264.5" width="357" height="17.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="i2n-l7-sEv" firstAttribute="top" secondItem="w2M-fI-X48" secondAttribute="bottom" constant="10" id="1DI-gL-YoW"/>
+                    <constraint firstItem="vuZ-jH-vcT" firstAttribute="leading" secondItem="EhZ-ck-umK" secondAttribute="trailing" constant="10" id="7Ef-C5-C6L"/>
+                    <constraint firstItem="0eb-8U-3CV" firstAttribute="top" secondItem="EhZ-ck-umK" secondAttribute="bottom" constant="10" id="EaS-O6-tTJ"/>
+                    <constraint firstItem="i2n-l7-sEv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Gkg-nS-d5U"/>
+                    <constraint firstItem="q0o-b6-h9m" firstAttribute="top" secondItem="i2n-l7-sEv" secondAttribute="bottom" constant="10" id="GyH-c1-fQN"/>
+                    <constraint firstAttribute="bottom" secondItem="Tkl-9l-dfx" secondAttribute="bottom" id="HlP-kF-rpj"/>
+                    <constraint firstAttribute="trailing" secondItem="0eb-8U-3CV" secondAttribute="trailing" constant="20" id="I3v-ND-tSM"/>
+                    <constraint firstItem="EhZ-ck-umK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="IOW-hS-q4Y"/>
+                    <constraint firstItem="0eb-8U-3CV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="KxA-de-lkI"/>
+                    <constraint firstItem="Tkl-9l-dfx" firstAttribute="top" secondItem="q0o-b6-h9m" secondAttribute="bottom" constant="10" id="M5d-rq-N6e"/>
+                    <constraint firstAttribute="trailing" secondItem="q0o-b6-h9m" secondAttribute="trailing" constant="20" id="MEF-Z9-PYc"/>
+                    <constraint firstAttribute="trailing" secondItem="Tkl-9l-dfx" secondAttribute="trailing" id="MmA-Ud-zvC"/>
+                    <constraint firstItem="w2M-fI-X48" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Omi-qe-WWW"/>
+                    <constraint firstItem="EhZ-ck-umK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="Tb3-bD-gds"/>
+                    <constraint firstItem="vuZ-jH-vcT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="VvO-SD-p0I"/>
+                    <constraint firstAttribute="trailing" secondItem="yWA-u7-14o" secondAttribute="trailing" constant="20" id="YNM-IH-N0v"/>
+                    <constraint firstItem="q0o-b6-h9m" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="djo-Lf-aoe"/>
+                    <constraint firstItem="yWA-u7-14o" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="jDX-me-61r"/>
+                    <constraint firstAttribute="trailing" secondItem="w2M-fI-X48" secondAttribute="trailing" constant="20" id="jgz-8A-QUw"/>
+                    <constraint firstItem="Tkl-9l-dfx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="kHF-XB-kgT"/>
+                    <constraint firstAttribute="trailing" secondItem="i2n-l7-sEv" secondAttribute="trailing" constant="20" id="sRE-bs-Y2o"/>
+                    <constraint firstItem="w2M-fI-X48" firstAttribute="top" secondItem="0eb-8U-3CV" secondAttribute="bottom" constant="10" id="xZw-uf-diT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="SPYPlantsCircle_Name_Label" destination="vuZ-jH-vcT" id="7jk-As-S7p"/>
+                <outlet property="SPY_PlantsCircle_DetailText_Label" destination="i2n-l7-sEv" id="5zA-YV-pja"/>
+                <outlet property="SPY_PlantsCircle_ImageView" destination="w2M-fI-X48" id="LTf-Zk-ic2"/>
+                <outlet property="SPY_PlantsCircle_Theme_Label" destination="0eb-8U-3CV" id="aBW-gJ-IZQ"/>
+                <outlet property="SPY_PlantsCircle_Titl_FirstLabel" destination="EhZ-ck-umK" id="Ijj-ZE-K3R"/>
+                <outlet property="SPY_PlantsPraiseBtn" destination="gwL-AF-4IR" id="xaM-2W-S6d"/>
+                <outlet property="SPY_isGuanZhuPlantsCircle" destination="yWA-u7-14o" id="VDx-dR-Gf9"/>
+            </connections>
+            <point key="canvasLocation" x="180.43478260869566" y="64.285714285714278"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="SPY_PlantsBtn_Image" width="222" height="76"/>
+        <image name="SPY_PlantsLike_nor" width="21.333333969116211" height="21.333333969116211"/>
+        <image name="SPY_PlantsLike_sel" width="32" height="32"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
