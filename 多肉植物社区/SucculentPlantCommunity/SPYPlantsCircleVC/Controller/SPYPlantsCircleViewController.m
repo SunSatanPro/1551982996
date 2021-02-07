@@ -30,7 +30,9 @@
 }
 
 - (void)SPY_PlantsCirlceHandle {
-    [self.navigationController pushViewController:[SPY_PlantsUserPostCircleDataViewController new] animated:YES];
+    [self showADComplete:^{
+        [self.navigationController pushViewController:[SPY_PlantsUserPostCircleDataViewController new] animated:YES];
+    }];
 }
 
 - (void)SPY_PlantsCirlceListView {
@@ -67,9 +69,11 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    SPY_PlantsCircleSayListViewController *plants_circleVC = [SPY_PlantsCircleSayListViewController new];
-    plants_circleVC.plantsModel = self.SPYPlantsCircleData[indexPath.row];
-    [self.navigationController pushViewController:plants_circleVC animated:YES];
+    [self showADComplete:^{
+        SPY_PlantsCircleSayListViewController *plants_circleVC = [SPY_PlantsCircleSayListViewController new];
+        plants_circleVC.plantsModel = self.SPYPlantsCircleData[indexPath.row];
+        [self.navigationController pushViewController:plants_circleVC animated:YES];
+    }];
 }
 
 

@@ -44,30 +44,32 @@
 }
 
 -  (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath.row == 0) {
-        SPYPlantsCircleViewController *plantsUsersCircleVC = [SPYPlantsCircleViewController new];
-        plantsUsersCircleVC.SPY_MineLikeCirlce = @"我的关注";
-        [self.navigationController pushViewController:plantsUsersCircleVC animated:YES];
-    }else if (indexPath.row == 1) {
-        [self.navigationController pushViewController:[SPY_SatisfyPlantsKnowViewController new] animated:YES];
-    }else if (indexPath.row ==  2) {
-        [self.navigationController pushViewController:[SPYPlantsNoSatisfyViewController new] animated:YES];
-    }else if (indexPath.row == 3) {
-        [self.navigationController pushViewController:[SPYPlantsUserFeedViewController new] animated:YES];
-    }else if (indexPath.row == 4) {
-        if (@available(iOS 10.0, *)) {
-            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto:syf19770512@icloud.com"] options:@{UIApplicationOpenURLOptionsSourceApplicationKey : @YES} completionHandler:^(BOOL success) {
-                if (success) {
+    [self showADComplete:^{
+        if (indexPath.row == 0) {
+            SPYPlantsCircleViewController *plantsUsersCircleVC = [SPYPlantsCircleViewController new];
+            plantsUsersCircleVC.SPY_MineLikeCirlce = @"我的关注";
+            [self.navigationController pushViewController:plantsUsersCircleVC animated:YES];
+        }else if (indexPath.row == 1) {
+            [self.navigationController pushViewController:[SPY_SatisfyPlantsKnowViewController new] animated:YES];
+        }else if (indexPath.row ==  2) {
+            [self.navigationController pushViewController:[SPYPlantsNoSatisfyViewController new] animated:YES];
+        }else if (indexPath.row == 3) {
+            [self.navigationController pushViewController:[SPYPlantsUserFeedViewController new] animated:YES];
+        }else if (indexPath.row == 4) {
+            if (@available(iOS 10.0, *)) {
+                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto:syf19770512@icloud.com"] options:@{UIApplicationOpenURLOptionsSourceApplicationKey : @YES} completionHandler:^(BOOL success) {
+                    if (success) {
 
-                }else {
-                    [SVProgressHUD SPY_ShowPlantsErrortext:@"打开邮件失败"];
-                }
-            }];
+                    }else {
+                        [SVProgressHUD SPY_ShowPlantsErrortext:@"打开邮件失败"];
+                    }
+                }];
+            }
         }
-    }
-    else {
-        [SVProgressHUD SPY_ShowPlantsTruertext:@"清除成功"];
-    }
+        else {
+            [SVProgressHUD SPY_ShowPlantsTruertext:@"清除成功"];
+        }
+    }];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {

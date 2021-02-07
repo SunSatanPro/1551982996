@@ -24,19 +24,19 @@
     self.navigationItem.title =  @"反馈";
 }
 
-
-
 - (IBAction)SPY_FeedPlantshandle:(id)sender {
-    if (self.SPYFeedPlants_TextView.text.length < 1){
-        [SVProgressHUD SPY_ShowPlantsErrortext:@"请输入您的意见反馈!"];
-        return;
-    }
-    [SVProgressHUD showWithStatus:@"提交中..."];
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 1.2 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
-        [SVProgressHUD dismiss];
-        [SVProgressHUD SPY_ShowPlantsTruertext:@"反馈意见成功"];
-        [self.navigationController popViewControllerAnimated:YES];
-    });
+    [self showADComplete:^{
+        if (self.SPYFeedPlants_TextView.text.length < 1){
+            [SVProgressHUD SPY_ShowPlantsErrortext:@"请输入您的意见反馈!"];
+            return;
+        }
+        [SVProgressHUD showWithStatus:@"提交中..."];
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 1.2 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+            [SVProgressHUD dismiss];
+            [SVProgressHUD SPY_ShowPlantsTruertext:@"反馈意见成功"];
+            [self.navigationController popViewControllerAnimated:YES];
+        });
+    }];
 }
 
 @end

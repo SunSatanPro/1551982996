@@ -80,15 +80,17 @@
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath.section == 0) {
-        SPY_PlantsCircleSayListViewController *hotCircleVC = [SPY_PlantsCircleSayListViewController new];
-        hotCircleVC.plantsModel = self.SPY_HotPlantsCircleModel;
-        [self.navigationController pushViewController:hotCircleVC animated:YES];
-    }else {
-        SPYPlantsKnowFeatureViewController *plants_featureVC = [SPYPlantsKnowFeatureViewController new];
-        plants_featureVC.plantsKnowModel = self.SPY_PlantsKnowListData[indexPath.item];
-        [self.navigationController pushViewController:plants_featureVC animated:YES];
-    }
+    [self showADComplete:^{
+        if (indexPath.section == 0) {
+            SPY_PlantsCircleSayListViewController *hotCircleVC = [SPY_PlantsCircleSayListViewController new];
+            hotCircleVC.plantsModel = self.SPY_HotPlantsCircleModel;
+            [self.navigationController pushViewController:hotCircleVC animated:YES];
+        }else {
+            SPYPlantsKnowFeatureViewController *plants_featureVC = [SPYPlantsKnowFeatureViewController new];
+            plants_featureVC.plantsKnowModel = self.SPY_PlantsKnowListData[indexPath.item];
+            [self.navigationController pushViewController:plants_featureVC animated:YES];
+        }
+    }];
 }
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {

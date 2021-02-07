@@ -4,6 +4,10 @@ target 'SucculentPlantCommunity' do
 
   use_frameworks!
   pod 'SDWebImage'
+  pod 'AFNetworking', '~> 4.0.1'
+  pod 'Masonry'
+  pod 'UMCCommon'
+  
   pod 'FLAnimatedImage'
   pod 'SDCycleScrollView'
   pod 'SVProgressHUD'
@@ -12,10 +16,9 @@ target 'SucculentPlantCommunity' do
   pod 'UITableView+FDTemplateLayoutCell'
   pod 'TZImagePickerController'
   pod 'MJExtension', '~> 3.2.1'
-  pod 'AFNetworking', '~> 4.0.1'
-  pod 'Masonry'
   pod 'SDCycleScrollView'
   pod 'WMPageController'
+  
 end
 
 

@@ -46,11 +46,13 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath.section == 1) {
-        SPYPlantsKnowFeatureViewController *plantsKnowFeature_VC = [SPYPlantsKnowFeatureViewController new];
-        plantsKnowFeature_VC.plantsKnowModel = self.SPYPlantsKnowRelativeData[indexPath.row];
-        [self.navigationController pushViewController:plantsKnowFeature_VC animated:YES];
-    }
+    [self showADComplete:^{
+        if (indexPath.section == 1) {
+            SPYPlantsKnowFeatureViewController *plantsKnowFeature_VC = [SPYPlantsKnowFeatureViewController new];
+            plantsKnowFeature_VC.plantsKnowModel = self.SPYPlantsKnowRelativeData[indexPath.row];
+            [self.navigationController pushViewController:plantsKnowFeature_VC animated:YES];
+        }
+    }];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {

@@ -51,9 +51,11 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    SPYPlantsKnowFeatureViewController *plantsFeature_VC = [SPYPlantsKnowFeatureViewController new];
-    plantsFeature_VC.plantsKnowModel = self.SPYPlantsKnowData[indexPath.row];
-    [self.navigationController pushViewController:plantsFeature_VC animated:YES];
+    [self showADComplete:^{
+        SPYPlantsKnowFeatureViewController *plantsFeature_VC = [SPYPlantsKnowFeatureViewController new];
+        plantsFeature_VC.plantsKnowModel = self.SPYPlantsKnowData[indexPath.row];
+        [self.navigationController pushViewController:plantsFeature_VC animated:YES];
+    }];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {

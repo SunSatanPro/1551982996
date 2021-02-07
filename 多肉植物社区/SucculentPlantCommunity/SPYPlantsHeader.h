@@ -57,7 +57,7 @@ static inline BOOL SPY_isIPhoneX() {
 #import <MJRefresh.h>
 #import <SVProgressHUD.h>
 #import <UIImageView+WebCache.h>
-
+#import "SMJAD.h"
 #import "SPYPlantsJsonTool.h"
 #import "SPYPlantsTool.h"
 #import "SPY_PlantsLogVC.h"

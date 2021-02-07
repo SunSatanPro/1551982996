@@ -70,6 +70,38 @@
 		84B8CC1525CA637A00B7B718 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B8CC1425CA637A00B7B718 /* main.m */; };
 		84B8CC1F25CA637A00B7B718 /* SucculentPlantCommunityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B8CC1E25CA637A00B7B718 /* SucculentPlantCommunityTests.m */; };
 		84B8CC2A25CA637A00B7B718 /* SucculentPlantCommunityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B8CC2925CA637A00B7B718 /* SucculentPlantCommunityUITests.m */; };
+		E3FB7CEE25CD1322005FFE1D /* SMJAD_UM_Config.txt in Resources */ = {isa = PBXBuildFile; fileRef = E3FB7CD025CD1322005FFE1D /* SMJAD_UM_Config.txt */; };
+		E3FB7CEF25CD1322005FFE1D /* 广告库接入和使用.txt in Resources */ = {isa = PBXBuildFile; fileRef = E3FB7CD125CD1322005FFE1D /* 广告库接入和使用.txt */; };
+		E3FB7CF025CD1322005FFE1D /* BUAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7CD425CD1322005FFE1D /* BUAdSDK.framework */; };
+		E3FB7CF125CD1322005FFE1D /* BUCNAuxiliary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7CD525CD1322005FFE1D /* BUCNAuxiliary.framework */; };
+		E3FB7CF225CD1322005FFE1D /* BUFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7CD625CD1322005FFE1D /* BUFoundation.framework */; };
+		E3FB7CF325CD1322005FFE1D /* BUAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E3FB7CD725CD1322005FFE1D /* BUAdSDK.bundle */; };
+		E3FB7CF425CD1322005FFE1D /* libLiteADLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7CDA25CD1322005FFE1D /* libLiteADLibrary.a */; };
+		E3FB7CF525CD1322005FFE1D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB7CDC25CD1322005FFE1D /* MBProgressHUD.m */; };
+		E3FB7CF625CD1322005FFE1D /* UIView+action.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB7CE125CD1322005FFE1D /* UIView+action.m */; };
+		E3FB7CF725CD1322005FFE1D /* AdBannerHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB7CE225CD1322005FFE1D /* AdBannerHeadView.m */; };
+		E3FB7CF825CD1322005FFE1D /* UIImageView+SSWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB7CE325CD1322005FFE1D /* UIImageView+SSWebImage.m */; };
+		E3FB7CF925CD1322005FFE1D /* SMJADmanager.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB7CE525CD1322005FFE1D /* SMJADmanager.m */; };
+		E3FB7CFA25CD1322005FFE1D /* UIViewController+showAd.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB7CE825CD1322005FFE1D /* UIViewController+showAd.m */; };
+		E3FB7CFB25CD1322005FFE1D /* SMJADRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB7CE925CD1322005FFE1D /* SMJADRootViewController.m */; };
+		E3FB7CFC25CD1322005FFE1D /* SMJADNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB7CEA25CD1322005FFE1D /* SMJADNavigationController.m */; };
+		E3FB7D0125CD1368005FFE1D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D0025CD1368005FFE1D /* libc++.tbd */; };
+		E3FB7D0325CD136E005FFE1D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D0225CD136D005FFE1D /* libz.tbd */; };
+		E3FB7D0525CD1373005FFE1D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D0425CD1373005FFE1D /* libsqlite3.tbd */; };
+		E3FB7D0A25CD137A005FFE1D /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D0925CD137A005FFE1D /* libbz2.tbd */; };
+		E3FB7D0C25CD1380005FFE1D /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D0B25CD1380005FFE1D /* libxml2.tbd */; };
+		E3FB7D1125CD1386005FFE1D /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D1025CD1386005FFE1D /* libresolv.9.tbd */; };
+		E3FB7D1625CD13B4005FFE1D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D1525CD13B4005FFE1D /* Accelerate.framework */; };
+		E3FB7D1825CD13B9005FFE1D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D1725CD13B9005FFE1D /* AdSupport.framework */; };
+		E3FB7D1A25CD13BE005FFE1D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D1925CD13BE005FFE1D /* AVFoundation.framework */; };
+		E3FB7D1C25CD13C5005FFE1D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D1B25CD13C4005FFE1D /* CoreTelephony.framework */; };
+		E3FB7D1E25CD13C9005FFE1D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D1D25CD13C9005FFE1D /* CoreMotion.framework */; };
+		E3FB7D2025CD13CE005FFE1D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D1F25CD13CE005FFE1D /* CoreLocation.framework */; };
+		E3FB7D2225CD13D3005FFE1D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D2125CD13D3005FFE1D /* CoreMedia.framework */; };
+		E3FB7D2425CD13D9005FFE1D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D2325CD13D9005FFE1D /* MediaPlayer.framework */; };
+		E3FB7D2625CD13DD005FFE1D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D2525CD13DD005FFE1D /* StoreKit.framework */; };
+		E3FB7D2825CD13E2005FFE1D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D2725CD13E2005FFE1D /* SystemConfiguration.framework */; };
+		E3FB7D2A25CD13E8005FFE1D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB7D2925CD13E8005FFE1D /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -194,6 +226,48 @@
 		84B8CC2525CA637A00B7B718 /* SucculentPlantCommunityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SucculentPlantCommunityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B8CC2925CA637A00B7B718 /* SucculentPlantCommunityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SucculentPlantCommunityUITests.m; sourceTree = "<group>"; };
 		84B8CC2B25CA637A00B7B718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3FB7CD025CD1322005FFE1D /* SMJAD_UM_Config.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SMJAD_UM_Config.txt; sourceTree = "<group>"; };
+		E3FB7CD125CD1322005FFE1D /* 广告库接入和使用.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "广告库接入和使用.txt"; sourceTree = "<group>"; };
+		E3FB7CD225CD1322005FFE1D /* SMJAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMJAD.h; sourceTree = "<group>"; };
+		E3FB7CD425CD1322005FFE1D /* BUAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUAdSDK.framework; sourceTree = "<group>"; };
+		E3FB7CD525CD1322005FFE1D /* BUCNAuxiliary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUCNAuxiliary.framework; sourceTree = "<group>"; };
+		E3FB7CD625CD1322005FFE1D /* BUFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUFoundation.framework; sourceTree = "<group>"; };
+		E3FB7CD725CD1322005FFE1D /* BUAdSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BUAdSDK.bundle; sourceTree = "<group>"; };
+		E3FB7CD925CD1322005FFE1D /* LiteADLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiteADLibrary.h; sourceTree = "<group>"; };
+		E3FB7CDA25CD1322005FFE1D /* libLiteADLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLiteADLibrary.a; sourceTree = "<group>"; };
+		E3FB7CDC25CD1322005FFE1D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		E3FB7CDD25CD1322005FFE1D /* AdBannerHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdBannerHeadView.h; sourceTree = "<group>"; };
+		E3FB7CDE25CD1322005FFE1D /* UIView+action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+action.h"; sourceTree = "<group>"; };
+		E3FB7CDF25CD1322005FFE1D /* UIImageView+SSWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SSWebImage.h"; sourceTree = "<group>"; };
+		E3FB7CE025CD1322005FFE1D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		E3FB7CE125CD1322005FFE1D /* UIView+action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+action.m"; sourceTree = "<group>"; };
+		E3FB7CE225CD1322005FFE1D /* AdBannerHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdBannerHeadView.m; sourceTree = "<group>"; };
+		E3FB7CE325CD1322005FFE1D /* UIImageView+SSWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SSWebImage.m"; sourceTree = "<group>"; };
+		E3FB7CE525CD1322005FFE1D /* SMJADmanager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMJADmanager.m; sourceTree = "<group>"; };
+		E3FB7CE625CD1322005FFE1D /* SMJADmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMJADmanager.h; sourceTree = "<group>"; };
+		E3FB7CE825CD1322005FFE1D /* UIViewController+showAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+showAd.m"; sourceTree = "<group>"; };
+		E3FB7CE925CD1322005FFE1D /* SMJADRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMJADRootViewController.m; sourceTree = "<group>"; };
+		E3FB7CEA25CD1322005FFE1D /* SMJADNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMJADNavigationController.m; sourceTree = "<group>"; };
+		E3FB7CEB25CD1322005FFE1D /* UIViewController+showAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+showAd.h"; sourceTree = "<group>"; };
+		E3FB7CEC25CD1322005FFE1D /* SMJADRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMJADRootViewController.h; sourceTree = "<group>"; };
+		E3FB7CED25CD1322005FFE1D /* SMJADNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMJADNavigationController.h; sourceTree = "<group>"; };
+		E3FB7D0025CD1368005FFE1D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		E3FB7D0225CD136D005FFE1D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E3FB7D0425CD1373005FFE1D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E3FB7D0925CD137A005FFE1D /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		E3FB7D0B25CD1380005FFE1D /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		E3FB7D1025CD1386005FFE1D /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+		E3FB7D1525CD13B4005FFE1D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		E3FB7D1725CD13B9005FFE1D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		E3FB7D1925CD13BE005FFE1D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E3FB7D1B25CD13C4005FFE1D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E3FB7D1D25CD13C9005FFE1D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		E3FB7D1F25CD13CE005FFE1D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E3FB7D2125CD13D3005FFE1D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E3FB7D2325CD13D9005FFE1D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		E3FB7D2525CD13DD005FFE1D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E3FB7D2725CD13E2005FFE1D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E3FB7D2925CD13E8005FFE1D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,7 +275,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3FB7CF425CD1322005FFE1D /* libLiteADLibrary.a in Frameworks */,
+				E3FB7D2A25CD13E8005FFE1D /* MobileCoreServices.framework in Frameworks */,
+				E3FB7D2825CD13E2005FFE1D /* SystemConfiguration.framework in Frameworks */,
+				E3FB7D2625CD13DD005FFE1D /* StoreKit.framework in Frameworks */,
+				E3FB7D2425CD13D9005FFE1D /* MediaPlayer.framework in Frameworks */,
+				E3FB7D2225CD13D3005FFE1D /* CoreMedia.framework in Frameworks */,
+				E3FB7D2025CD13CE005FFE1D /* CoreLocation.framework in Frameworks */,
+				E3FB7D1E25CD13C9005FFE1D /* CoreMotion.framework in Frameworks */,
+				E3FB7D1C25CD13C5005FFE1D /* CoreTelephony.framework in Frameworks */,
+				E3FB7D1A25CD13BE005FFE1D /* AVFoundation.framework in Frameworks */,
+				E3FB7D1825CD13B9005FFE1D /* AdSupport.framework in Frameworks */,
+				E3FB7D1625CD13B4005FFE1D /* Accelerate.framework in Frameworks */,
+				E3FB7D1125CD1386005FFE1D /* libresolv.9.tbd in Frameworks */,
+				E3FB7D0C25CD1380005FFE1D /* libxml2.tbd in Frameworks */,
+				E3FB7D0A25CD137A005FFE1D /* libbz2.tbd in Frameworks */,
+				E3FB7D0525CD1373005FFE1D /* libsqlite3.tbd in Frameworks */,
+				E3FB7D0325CD136E005FFE1D /* libz.tbd in Frameworks */,
+				E3FB7D0125CD1368005FFE1D /* libc++.tbd in Frameworks */,
+				E3FB7CF225CD1322005FFE1D /* BUFoundation.framework in Frameworks */,
+				E3FB7CF125CD1322005FFE1D /* BUCNAuxiliary.framework in Frameworks */,
 				1E40967F672A6470D1682BAB /* Pods_SucculentPlantCommunity.framework in Frameworks */,
+				E3FB7CF025CD1322005FFE1D /* BUAdSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +320,23 @@
 		7EC929A768B22BF18D4EB918 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E3FB7D2925CD13E8005FFE1D /* MobileCoreServices.framework */,
+				E3FB7D2725CD13E2005FFE1D /* SystemConfiguration.framework */,
+				E3FB7D2525CD13DD005FFE1D /* StoreKit.framework */,
+				E3FB7D2325CD13D9005FFE1D /* MediaPlayer.framework */,
+				E3FB7D2125CD13D3005FFE1D /* CoreMedia.framework */,
+				E3FB7D1F25CD13CE005FFE1D /* CoreLocation.framework */,
+				E3FB7D1D25CD13C9005FFE1D /* CoreMotion.framework */,
+				E3FB7D1B25CD13C4005FFE1D /* CoreTelephony.framework */,
+				E3FB7D1925CD13BE005FFE1D /* AVFoundation.framework */,
+				E3FB7D1725CD13B9005FFE1D /* AdSupport.framework */,
+				E3FB7D1525CD13B4005FFE1D /* Accelerate.framework */,
+				E3FB7D1025CD1386005FFE1D /* libresolv.9.tbd */,
+				E3FB7D0B25CD1380005FFE1D /* libxml2.tbd */,
+				E3FB7D0925CD137A005FFE1D /* libbz2.tbd */,
+				E3FB7D0425CD1373005FFE1D /* libsqlite3.tbd */,
+				E3FB7D0225CD136D005FFE1D /* libz.tbd */,
+				E3FB7D0025CD1368005FFE1D /* libc++.tbd */,
 				1974635629FFAC4068C93640 /* Pods_SucculentPlantCommunity.framework */,
 			);
 			name = Frameworks;
@@ -457,6 +569,7 @@
 		84B8CC0425CA637800B7B718 /* SucculentPlantCommunity */ = {
 			isa = PBXGroup;
 			children = (
+				E3FB7CCE25CD1322005FFE1D /* SMJ */,
 				844DB3E625CA8FB500C4E9D2 /* SPYPlantsCenterVC */,
 				844DB3E325CA8FA100C4E9D2 /* SPYPlantsLikeVC */,
 				844DB3E025CA8F8E00C4E9D2 /* SPYPlantsCircleVC */,
@@ -498,6 +611,86 @@
 				47A13D9221D92B2D4887D5D7 /* Pods-SucculentPlantCommunity.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E3FB7CCE25CD1322005FFE1D /* SMJ */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB7CCF25CD1322005FFE1D /* 文档 */,
+				E3FB7CD225CD1322005FFE1D /* SMJAD.h */,
+				E3FB7CD325CD1322005FFE1D /* CSJSDK */,
+				E3FB7CD825CD1322005FFE1D /* LiteADLibrary */,
+				E3FB7CDB25CD1322005FFE1D /* View */,
+				E3FB7CE425CD1322005FFE1D /* SMJADmanager */,
+				E3FB7CE725CD1322005FFE1D /* ViewController */,
+			);
+			path = SMJ;
+			sourceTree = "<group>";
+		};
+		E3FB7CCF25CD1322005FFE1D /* 文档 */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB7CD025CD1322005FFE1D /* SMJAD_UM_Config.txt */,
+				E3FB7CD125CD1322005FFE1D /* 广告库接入和使用.txt */,
+			);
+			path = "文档";
+			sourceTree = "<group>";
+		};
+		E3FB7CD325CD1322005FFE1D /* CSJSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB7CD425CD1322005FFE1D /* BUAdSDK.framework */,
+				E3FB7CD525CD1322005FFE1D /* BUCNAuxiliary.framework */,
+				E3FB7CD625CD1322005FFE1D /* BUFoundation.framework */,
+				E3FB7CD725CD1322005FFE1D /* BUAdSDK.bundle */,
+			);
+			path = CSJSDK;
+			sourceTree = "<group>";
+		};
+		E3FB7CD825CD1322005FFE1D /* LiteADLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB7CD925CD1322005FFE1D /* LiteADLibrary.h */,
+				E3FB7CDA25CD1322005FFE1D /* libLiteADLibrary.a */,
+			);
+			path = LiteADLibrary;
+			sourceTree = "<group>";
+		};
+		E3FB7CDB25CD1322005FFE1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB7CDC25CD1322005FFE1D /* MBProgressHUD.m */,
+				E3FB7CDD25CD1322005FFE1D /* AdBannerHeadView.h */,
+				E3FB7CDE25CD1322005FFE1D /* UIView+action.h */,
+				E3FB7CDF25CD1322005FFE1D /* UIImageView+SSWebImage.h */,
+				E3FB7CE025CD1322005FFE1D /* MBProgressHUD.h */,
+				E3FB7CE125CD1322005FFE1D /* UIView+action.m */,
+				E3FB7CE225CD1322005FFE1D /* AdBannerHeadView.m */,
+				E3FB7CE325CD1322005FFE1D /* UIImageView+SSWebImage.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3FB7CE425CD1322005FFE1D /* SMJADmanager */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB7CE525CD1322005FFE1D /* SMJADmanager.m */,
+				E3FB7CE625CD1322005FFE1D /* SMJADmanager.h */,
+			);
+			path = SMJADmanager;
+			sourceTree = "<group>";
+		};
+		E3FB7CE725CD1322005FFE1D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB7CE825CD1322005FFE1D /* UIViewController+showAd.m */,
+				E3FB7CE925CD1322005FFE1D /* SMJADRootViewController.m */,
+				E3FB7CEA25CD1322005FFE1D /* SMJADNavigationController.m */,
+				E3FB7CEB25CD1322005FFE1D /* UIViewController+showAd.h */,
+				E3FB7CEC25CD1322005FFE1D /* SMJADRootViewController.h */,
+				E3FB7CED25CD1322005FFE1D /* SMJADNavigationController.h */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -608,7 +801,9 @@
 			files = (
 				844DB3ED25CA8FE100C4E9D2 /* SPYPlantsKnowViewController.xib in Resources */,
 				844DB4B425CAD67F00C4E9D2 /* SPYPlantsUserFeedViewController.xib in Resources */,
+				E3FB7CEF25CD1322005FFE1D /* 广告库接入和使用.txt in Resources */,
 				844DB49E25CAD2A900C4E9D2 /* SPYInfoPlantsListCell.xib in Resources */,
+				E3FB7CF325CD1322005FFE1D /* BUAdSDK.bundle in Resources */,
 				844DB42C25CA9E8C00C4E9D2 /* SPYPlantsListCell.xib in Resources */,
 				844DB34F25CA725C00C4E9D2 /* SPYPlantsMass.json in Resources */,
 				844DB41925CA9BEF00C4E9D2 /* SPYPlantsScrollReusableView.xib in Resources */,
@@ -624,6 +819,7 @@
 				844DB39C25CA8D0400C4E9D2 /* SPY_PlantsLogVC.xib in Resources */,
 				844DB35025CA725C00C4E9D2 /* SPYPlantsZhiShi.json in Resources */,
 				844DB48E25CACD1900C4E9D2 /* SPYPlantsCenterViewController.xib in Resources */,
+				E3FB7CEE25CD1322005FFE1D /* SMJAD_UM_Config.txt in Resources */,
 				844DB44F25CAABC000C4E9D2 /* SPYPlants_KnowRelativeTableViewCell.xib in Resources */,
 				844DB39D25CA8D0400C4E9D2 /* SPY_AddPlantsAccountVC.xib in Resources */,
 				844DB3F825CA8FEC00C4E9D2 /* SPYPlantsCircleViewController.xib in Resources */,
@@ -704,29 +900,37 @@
 				844DB3D825CA8E6D00C4E9D2 /* SPY_PlantImage_ViewController.m in Sources */,
 				844DB3EC25CA8FE100C4E9D2 /* SPYPlantsKnowViewController.m in Sources */,
 				844DB35725CA729100C4E9D2 /* SPYPlantUserModel.m in Sources */,
+				E3FB7CF825CD1322005FFE1D /* UIImageView+SSWebImage.m in Sources */,
 				844DB42325CA9CA100C4E9D2 /* SPYTodayPlantsKnowCell.m in Sources */,
 				844DB3F725CA8FEC00C4E9D2 /* SPYPlantsCircleViewController.m in Sources */,
+				E3FB7CF525CD1322005FFE1D /* MBProgressHUD.m in Sources */,
 				844DB3B025CA8D3100C4E9D2 /* SPY_AddPlantsAccountVC.m in Sources */,
 				844DB37225CA73F100C4E9D2 /* SPYPlantsTabbarViewController.m in Sources */,
 				844DB46425CAB37100C4E9D2 /* SPY_PlantCircleCell.m in Sources */,
 				844DB36C25CA73BC00C4E9D2 /* SPYPlantsNavViewController.m in Sources */,
 				844DB42B25CA9E8C00C4E9D2 /* SPYPlantsListCell.m in Sources */,
+				E3FB7CFB25CD1322005FFE1D /* SMJADRootViewController.m in Sources */,
 				844DB44E25CAABC000C4E9D2 /* SPYPlants_KnowRelativeTableViewCell.m in Sources */,
 				844DB47425CAC1F500C4E9D2 /* SPY_PlantsCircleSayListViewController.m in Sources */,
 				844DB41825CA9BEF00C4E9D2 /* SPYPlantsScrollReusableView.m in Sources */,
 				844DB4B325CAD67F00C4E9D2 /* SPYPlantsUserFeedViewController.m in Sources */,
+				E3FB7CF725CD1322005FFE1D /* AdBannerHeadView.m in Sources */,
 				844DB40E25CA955B00C4E9D2 /* AppDelegate+SPY.m in Sources */,
 				844DB43325CAA61B00C4E9D2 /* SPYPlantsKnowFeatureViewController.m in Sources */,
+				E3FB7CF625CD1322005FFE1D /* UIView+action.m in Sources */,
 				844DB48D25CACD1900C4E9D2 /* SPYPlantsCenterViewController.m in Sources */,
 				844DB4AB25CAD57500C4E9D2 /* SPYPlantsNoSatisfyViewController.m in Sources */,
 				844DB36625CA72FB00C4E9D2 /* SPYPlantsCircleModel.m in Sources */,
+				E3FB7CF925CD1322005FFE1D /* SMJADmanager.m in Sources */,
 				844DB36025CA72B400C4E9D2 /* SPYPlantsKnowModel.m in Sources */,
 				844DB49D25CAD2A900C4E9D2 /* SPYInfoPlantsListCell.m in Sources */,
 				844DB3FF25CA8FFB00C4E9D2 /* SPYPlantsLikeViewController.m in Sources */,
 				844DB46C25CAB9DF00C4E9D2 /* SPYPlantsCircleSayCell.m in Sources */,
 				84B8CC1525CA637A00B7B718 /* main.m in Sources */,
 				844DB47F25CAC90800C4E9D2 /* SPY_PlantsUserPostCircleDataViewController.m in Sources */,
+				E3FB7CFC25CD1322005FFE1D /* SMJADNavigationController.m in Sources */,
 				844DB3A725CA8D2200C4E9D2 /* SPY_PlantsLogVC.m in Sources */,
+				E3FB7CFA25CD1322005FFE1D /* UIViewController+showAd.m in Sources */,
 				844DB3B925CA8D4000C4E9D2 /* SPY_PlantsAgreeVC.m in Sources */,
 				844DB44625CAA75900C4E9D2 /* SPY_PlantsKnow_DtCell.m in Sources */,
 				844DB37B25CA763500C4E9D2 /* SPYPlantsTool.m in Sources */,
@@ -813,8 +1017,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "armv7s armv7";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -872,8 +1078,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "armv7s armv7";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -895,19 +1103,28 @@
 			baseConfigurationReference = 32735AD079D255D4B1DC85E1 /* Pods-SucculentPlantCommunity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PDSTSFXRA5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SucculentPlantCommunity/SMJ/CSJSDK",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SucculentPlantCommunity/SPYPlantsHeader.h";
 				INFOPLIST_FILE = SucculentPlantCommunity/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SucculentPlantCommunity/SMJ/LiteADLibrary",
+				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.SucculentPlantCommunity.SucculentPlantCommunity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = com.SucculentPlantCommunity.SucculentPlantCommun;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -917,19 +1134,28 @@
 			baseConfigurationReference = 47A13D9221D92B2D4887D5D7 /* Pods-SucculentPlantCommunity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PDSTSFXRA5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SucculentPlantCommunity/SMJ/CSJSDK",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SucculentPlantCommunity/SPYPlantsHeader.h";
 				INFOPLIST_FILE = SucculentPlantCommunity/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SucculentPlantCommunity/SMJ/LiteADLibrary",
+				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.SucculentPlantCommunity.SucculentPlantCommunity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = com.SucculentPlantCommunity.SucculentPlantCommun;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
